@@ -16,11 +16,11 @@
   my $factory = Bio::Tools::Run::RemoteBlast->new(@params);
 
   #change a query parameter
-  $Bio::Tools::Run::RemoteBlast::HEADER{'ENTREZ_QUERY'} = 'Homo sapiens [ORGN]';
+  #$Bio::Tools::Run::RemoteBlast::HEADER{'ENTREZ_QUERY'} = 'Homo sapiens [ORGN]';
   #$Bio::Tools::Run::RemoteBlast::HEADER{'MATRIX_NAME'} = 'BLOSUM45';
   #change a retrieval parameter
-  $Bio::Tools::Run::RemoteBlast::RETRIEVALHEADER{'DESCRIPTIONS'} = 1;
-$Bio::Tools::Run::RemoteBlast::RETRIEVALHEADER{'ALIGNMENTS'} = 10000;
+  #$Bio::Tools::Run::RemoteBlast::RETRIEVALHEADER{'DESCRIPTIONS'} = 1;
+  #$Bio::Tools::Run::RemoteBlast::RETRIEVALHEADER{'ALIGNMENTS'} = 10000;
 
 
 
