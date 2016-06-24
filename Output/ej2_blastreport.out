@@ -1,0 +1,1076 @@
+BLASTP 2.4.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: ../../swissprot
+           463,707 sequences; 174,036,717 total letters
+
+
+
+Query= NM_000497-0F Homo sapiens cytochrome P450 family 11 subfamily B
+member 1 (CYP11B1), transcript variant 1, mRNA.
+
+Length=1183
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.141    0.476    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 120989743155
+
+
+Query= NM_000497-1F Homo sapiens cytochrome P450 family 11 subfamily B
+member 1 (CYP11B1), transcript variant 1, mRNA.
+
+Length=1183
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  gi|215274267|sp|P15538.5|C11B1_HUMAN RecName: Full=Cytochrome P...  1033    0.0   
+  gi|2493374|sp|Q29527.1|C11B1_PAPHU RecName: Full=Cytochrome P45...  1000    0.0   
+  gi|3041666|sp|P19099.3|C11B2_HUMAN RecName: Full=Cytochrome P45...  920     0.0   
+  gi|3041670|sp|P51663.2|C11B1_SHEEP RecName: Full=Cytochrome P45...  775     0.0   
+  gi|2493375|sp|Q29552.1|C11B1_PIG RecName: Full=Cytochrome P450 ...  769     0.0   
+  gi|117263|sp|P15150.2|C11B1_BOVIN RecName: Full=Cytochrome P450...  762     0.0   
+  gi|3023558|sp|Q64658.1|C11B2_MESAU RecName: Full=Cytochrome P45...  710     0.0   
+  gi|231899|sp|P30100.1|C11B3_RAT RecName: Full=Cytochrome P450 1...  689     0.0   
+  gi|341940566|sp|P15539.3|C11B2_MOUSE RecName: Full=Cytochrome P...  688     0.0   
+  gi|231898|sp|P30099.1|C11B2_RAT RecName: Full=Cytochrome P450 1...  684     0.0   
+  gi|117266|sp|P15393.1|C11B1_RAT RecName: Full=Cytochrome P450 1...  650     0.0   
+  gi|3023557|sp|Q64408.1|C11B1_CAVPO RecName: Full=Cytochrome P45...  641     0.0   
+  gi|3023553|sp|P97720.1|C11B1_MESAU RecName: Full=Cytochrome P45...  639     0.0   
+  gi|3023559|sp|Q92104.1|CP11B_LITCT RecName: Full=Cytochrome P45...  472     2e-153
+  gi|584999|sp|Q07217.1|CP11A_ONCMY RecName: Full=Cholesterol sid...  360     3e-111
+  gi|117261|sp|P10612.1|CP11A_PIG RecName: Full=Cholesterol side-...  351     1e-107
+  gi|3023551|sp|P79153.1|CP11A_CAPHI RecName: Full=Cholesterol si...  349     4e-107
+  gi|117259|sp|P00189.1|CP11A_BOVIN RecName: Full=Cholesterol sid...  345     2e-105
+  gi|3023552|sp|P79202.1|CP11A_SHEEP RecName: Full=Cholesterol si...  343     8e-105
+  gi|143811381|sp|P05108.2|CP11A_HUMAN RecName: Full=Cholesterol ...  340     2e-103
+  gi|13959313|sp|Q9EPT4.1|CP11A_MESAU RecName: Full=Cholesterol s...  337     2e-102
+  gi|12229559|sp|O46515.1|CP11A_HORSE RecName: Full=Cholesterol s...  336     4e-102
+  gi|13959314|sp|Q9QZ82.1|CP11A_MOUSE RecName: Full=Cholesterol s...  334     2e-101
+  gi|117262|sp|P14137.1|CP11A_RAT RecName: Full=Cholesterol side-...  331     4e-100
+  gi|3913354|sp|Q92045.1|CP11A_DASAM RecName: Full=Cholesterol si...  330     4e-100
+  gi|85718633|sp|Q2XV99.1|CP11A_MACFA RecName: Full=Cholesterol s...  323     2e-97 
+  gi|3913353|sp|Q28827.1|CP11A_RABIT RecName: Full=Cholesterol si...  276     3e-81 
+  gi|2493382|sp|Q64441.1|CP24A_MOUSE RecName: Full=1,25-dihydroxy...  217     1e-59 
+  gi|1706084|sp|Q09128.1|CP24A_RAT RecName: Full=1,25-dihydroxyvi...  214     1e-58 
+  gi|19862747|sp|Q07973.2|CP24A_HUMAN RecName: Full=1,25-dihydrox...  212     6e-58 
+  gi|117152|sp|P17178.1|CP27A_RAT RecName: Full=Sterol 26-hydroxy...  207     5e-56 
+  gi|117151|sp|P17177.1|CP27A_RABIT RecName: Full=Sterol 26-hydro...  200     9e-54 
+  gi|3182969|sp|O35084.2|CP27B_MOUSE RecName: Full=25-hydroxyvita...  195     3e-52 
+  gi|3182968|sp|O15528.1|CP27B_HUMAN RecName: Full=25-hydroxyvita...  193     1e-51 
+  gi|37537843|sp|Q9DBG1.1|CP27A_MOUSE RecName: Full=Sterol 26-hyd...  194     1e-51 
+  gi|1352181|sp|P48416.1|CP10_LYMST RecName: Full=Cytochrome P450...  194     2e-51 
+  gi|3182965|sp|O35132.2|CP27B_RAT RecName: Full=25-hydroxyvitami...  191     5e-51 
+  gi|399288|sp|Q02318.1|CP27A_HUMAN RecName: Full=Sterol 26-hydro...  185     1e-48 
+  gi|296434415|sp|Q4G0S4.2|C27C1_HUMAN RecName: Full=Cytochrome P...  166     1e-43 
+  gi|11386716|sp|Q9VVR9.2|C12C1_DROME RecName: Full=Probable cyto...  163     2e-41 
+  gi|14917104|sp|Q09660.2|CC44_CAEEL RecName: Full=Probable cytoc...  151     1e-37 
+  gi|3913339|sp|O18635.1|C12A2_MUSDO RecName: Full=Cytochrome P45...  150     5e-37 
+  gi|226693504|sp|Q9V8M2.2|C12B2_DROME RecName: Full=Probable cyt...  147     9e-36 
+  gi|22096349|sp|Q9V5L3.3|C49A1_DROME RecName: Full=Probable cyto...  140     4e-33 
+  gi|12643810|sp|Q9NGX9.2|CP302_DROME RecName: Full=Cytochrome P4...  137     7e-33 
+  gi|5921956|sp|O44220.1|C12B1_DROAC RecName: Full=Cytochrome P45...  137     1e-32 
+  gi|11386708|sp|Q9VE00.2|C12A4_DROME RecName: Full=Probable cyto...  134     2e-31 
+  gi|11386662|sp|Q9VGH1.1|CP315_DROME RecName: Full=Cytochrome P4...  131     1e-30 
+  gi|78099765|sp|P82712.3|CCD1P_DROME RecName: Full=Probable cyto...  129     6e-30 
+  gi|74920232|sp|Q7KR10.1|CCD1D_DROME RecName: Full=Probable cyto...  127     2e-29 
+  gi|11386709|sp|Q9VE01.1|C12A5_DROME RecName: Full=Probable cyto...  127     2e-29 
+  gi|353526347|sp|Q9VGZ0.4|C12E1_DROME RecName: Full=Probable cyt...  114     3e-25 
+  gi|13878369|sp|P58048.1|C71B8_ARATH RecName: Full=Cytochrome P4...  109     2e-23 
+  gi|71648657|sp|Q5RCN6.1|CP4V2_PONAB RecName: Full=Cytochrome P4...  108     4e-23 
+  gi|5921922|sp|O70537.1|CP3AV_MESAU RecName: Full=Cytochrome P45...  106     1e-22 
+  gi|117162|sp|P24463.1|CP3AC_CANFA RecName: Full=Cytochrome P450...  106     1e-22 
+  gi|231885|sp|P29981.1|CP4C1_BLADI RecName: Full=Cytochrome P450...  106     2e-22 
+  gi|5921916|sp|Q64581.1|CP3AI_RAT RecName: Full=Cytochrome P450 ...  105     3e-22 
+  gi|6166033|sp|P05183.2|CP3A2_RAT RecName: Full=Cytochrome P450 ...  105     4e-22 
+  gi|296434466|sp|Q6ZWL3.2|CP4V2_HUMAN RecName: Full=Cytochrome P...  103     1e-21 
+  gi|41019524|sp|Q9VUF8.3|CP314_DROME RecName: Full=Ecdysone 20-m...  103     1e-21 
+  gi|341940388|sp|Q9JMA7.2|CP341_MOUSE RecName: Full=Cytochrome P...  103     2e-21 
+  gi|71648658|sp|Q9DBW0.1|CP4V2_MOUSE RecName: Full=Cytochrome P4...  103     2e-21 
+  gi|47117815|sp|O65786.2|C71B4_ARATH RecName: Full=Cytochrome P4...  102     2e-21 
+  gi|11386677|sp|Q9VXY0.1|CP4S3_DROME RecName: Full=Probable cyto...  101     5e-21 
+  gi|117157|sp|P20815.1|CP3A5_HUMAN RecName: Full=Cytochrome P450...  101     7e-21 
+  gi|5921917|sp|P79152.1|CP3AJ_CAPHE RecName: Full=Cytochrome P45...  95.1    1e-20 
+  gi|5921918|sp|O09158.1|CP3AP_MOUSE RecName: Full=Cytochrome P45...  100     2e-20 
+  gi|5915857|sp|O48956.1|C98A1_SORBI RecName: Full=Cytochrome P45...  99.4    3e-20 
+  gi|5915815|sp|Q42716.1|C71A8_MENPI RecName: Full=Cytochrome P45...  99.0    3e-20 
+  gi|117153|sp|P04800.1|CP3A1_RAT RecName: Full=Cytochrome P450 3...  98.2    7e-20 
+  gi|5921920|sp|P79102.1|CP3AS_BOVIN RecName: Full=Cytochrome P45...  98.2    7e-20 
+  gi|13878382|sp|Q9LTL8.1|C71BO_ARATH RecName: Full=Cytochrome P4...  97.8    8e-20 
+  gi|13878381|sp|Q9LTL2.1|C71BP_ARATH RecName: Full=Cytochrome P4...  97.8    9e-20 
+  gi|11386755|sp|Q9VMT6.1|C28D2_DROME RecName: Full=Probable cyto...  97.8    9e-20 
+  gi|341940389|sp|Q64481.2|CP3AG_MOUSE RecName: Full=Cytochrome P...  97.8    9e-20 
+  gi|677995435|sp|F2Z9C1.1|P6H_ESCCA RecName: Full=Protopine 6-mo...  97.8    1e-19 
+  gi|12643918|sp|Q9VA27.1|CP4C3_DROME RecName: Full=Cytochrome P4...  97.8    1e-19 
+  gi|5921912|sp|Q64464.1|CP3AD_MOUSE RecName: Full=Cytochrome P45...  97.1    1e-19 
+  gi|5921911|sp|Q64459.1|CP3AB_MOUSE RecName: Full=Cytochrome P45...  97.1    1e-19 
+  gi|13878389|sp|Q9LTM7.1|C71BG_ARATH RecName: Full=Cytochrome P4...  96.7    2e-19 
+  gi|3913192|sp|Q42798.1|C93A1_SOYBN RecName: Full=3,9-dihydroxyp...  96.3    3e-19 
+  gi|2506240|sp|P51538.2|CP3A9_RAT RecName: Full=Cytochrome P450 ...  96.3    3e-19 
+  gi|11386653|sp|Q9V6D6.1|CP301_DROME RecName: Full=Probable cyto...  95.9    4e-19 
+  gi|2493370|sp|Q29496.1|CP3AO_SHEEP RecName: Full=Cytochrome P45...  95.5    5e-19 
+  gi|160380599|sp|A2RRT9.1|CP4V2_RAT RecName: Full=Cytochrome P45...  95.5    5e-19 
+  gi|311033356|sp|P24465.2|C71A1_PERAE RecName: Full=Cytochrome P...  95.1    5e-19 
+  gi|13878388|sp|Q9LTM6.1|C71BH_ARATH RecName: Full=Cytochrome P4...  95.1    6e-19 
+  gi|13878398|sp|Q9SCN2.1|C71BU_ARATH RecName: Full=Cytochrome P4...  95.1    7e-19 
+  gi|5915841|sp|O48958.1|C71E1_SORBI RecName: Full=4-hydroxypheny...  94.7    9e-19 
+  gi|11386631|sp|O46051.1|C4D14_DROME RecName: Full=Probable cyto...  94.4    1e-18 
+  gi|116241312|sp|P08684.4|CP3A4_HUMAN RecName: Full=Cytochrome P...  94.0    2e-18 
+  gi|5921921|sp|P79401.1|CP3AT_PIG RecName: Full=Cytochrome P450 ...  93.6    2e-18 
+  gi|13878384|sp|Q9LTM1.1|C71BM_ARATH RecName: Full=Cytochrome P4...  93.2    2e-18 
+  gi|13878391|sp|Q9LW27.1|C71BF_ARATH RecName: Full=Bifunctional ...  93.2    3e-18 
+  gi|3913344|sp|O73853.1|CP17A_ICTPU RecName: Full=Steroid 17-alp...  93.2    3e-18 
+  gi|5921910|sp|Q64148.2|CP3AA_MESAU RecName: Full=Lithocholate 6...  92.8    3e-18 
+  gi|704000326|sp|S4UX02.1|CYPH1_SALMI RecName: Full=Ferruginol s...  92.8    4e-18 
+  gi|115510972|sp|Q3MID2.1|CP4F3_RAT RecName: Full=Leukotriene-B(...  92.8    4e-18 
+  gi|313104094|sp|Q9HCS2.2|CP4FC_HUMAN RecName: Full=Cytochrome P...  92.8    4e-18 
+  gi|75314016|sp|Q9SWR5.1|C93C1_SOYBN RecName: Full=2-hydroxyisof...  92.8    4e-18 
+  gi|584861|sp|P37118.1|C71A2_SOLME RecName: Full=Cytochrome P450...  92.4    5e-18 
+  gi|10719963|sp|P98187.1|CP4F8_HUMAN RecName: Full=Cytochrome P4...  92.0    6e-18 
+  gi|47605528|sp|Q964R0.1|CP6K1_BLAGE RecName: Full=Cytochrome P4...  92.0    6e-18 
+  gi|461808|sp|P33268.1|CP3A8_MACFA RecName: Full=Cytochrome P450...  91.7    8e-18 
+  gi|3913302|sp|O18993.1|CP3AL_CALJA RecName: Full=Cytochrome P45...  91.7    9e-18 
+  gi|11386665|sp|Q9VLZ7.1|C4D21_DROME RecName: Full=Probable cyto...  91.3    1e-17 
+  gi|5915853|sp|O81973.1|C93A3_SOYBN RecName: Full=Cytochrome P45...  91.3    1e-17 
+  gi|75313670|sp|Q9SP06.1|C80B3_PAPSO RecName: Full=(S)-N-methylc...  91.3    1e-17 
+  gi|1706094|sp|P51870.1|CP4F5_RAT RecName: Full=Cytochrome P450 ...  91.3    1e-17 
+  gi|75306222|sp|Q947B7.1|MFS_MENPI RecName: Full=(+)-menthofuran...  90.9    1e-17 
+  gi|5915852|sp|Q42799.1|C93A2_SOYBN RecName: Full=Cytochrome P45...  90.9    1e-17 
+  gi|5915860|sp|P93149.2|C93B1_GLYEC RecName: Full=Licodione synt...  90.9    1e-17 
+  gi|5915858|sp|O48922.1|C98A2_SOYBN RecName: Full=Cytochrome P45...  90.9    1e-17 
+  gi|187671948|sp|Q54DT2.2|C516A_DICDI RecName: Full=Probable cyt...  90.9    1e-17 
+  gi|13878378|sp|Q9LIP5.1|C71BW_ARATH RecName: Full=Cytochrome P4...  90.9    1e-17 
+  gi|11386683|sp|Q9W011.1|C4D20_DROME RecName: Full=Probable cyto...  90.9    1e-17 
+  gi|5915859|sp|O22203.1|C98A3_ARATH RecName: Full=Cytochrome P45...  90.9    2e-17 
+  gi|11386673|sp|Q9VVN6.1|CP312_DROME RecName: Full=Probable cyto...  90.5    2e-17 
+  gi|5921913|sp|Q64406.1|CP3AF_CAVPO RecName: Full=Cytochrome P45...  90.5    2e-17 
+  gi|47605530|sp|Q964T1.1|CP4CU_BLAGE RecName: Full=Cytochrome P4...  90.5    2e-17 
+  gi|75314070|sp|Q9SXS3.1|C93C2_GLYEC RecName: Full=2-hydroxyisof...  90.5    2e-17 
+  gi|5921187|sp|Q43255.1|C71C2_MAIZE RecName: Full=indolin-2-one ...  90.5    2e-17 
+  gi|20137481|sp|Q9HB55.1|CP343_HUMAN RecName: Full=Cytochrome P4...  90.1    3e-17 
+  gi|410591671|sp|G4XV71.2|C93C2_GLYUR RecName: Full=2-hydroxyiso...  90.1    3e-17 
+  gi|13878383|sp|Q9LTM0.1|C71BN_ARATH RecName: Full=Cytochrome P4...  89.7    3e-17 
+  gi|90110014|sp|P24462.2|CP3A7_HUMAN RecName: Full=Cytochrome P4...  89.7    3e-17 
+  gi|13878379|sp|Q9LIP6.1|C71BV_ARATH RecName: Full=Cytochrome P4...  89.7    3e-17 
+  gi|677995442|sp|L7X0L7.1|P6H_PAPSO RecName: Full=Protopine 6-mo...  89.4    5e-17 
+  gi|11386666|sp|Q9VMS7.2|C4AC3_DROME RecName: Full=Probable cyto...  89.0    6e-17 
+  gi|47605529|sp|Q964R1.1|CP6J1_BLAGE RecName: Full=Cytochrome P4...  88.6    7e-17 
+  gi|5915814|sp|O04164.1|C71A6_NEPRA RecName: Full=Cytochrome P45...  88.6    7e-17 
+  gi|6166034|sp|P11707.2|CP3A6_RABIT RecName: Full=Cytochrome P45...  88.6    8e-17 
+  gi|117183|sp|P24458.1|CP52E_CANMA RecName: Full=Cytochrome P450...  88.6    8e-17 
+  gi|11386705|sp|Q9V9L1.1|CP6W1_DROME RecName: Full=Probable cyto...  88.6    9e-17 
+  gi|341940392|sp|Q99N16.2|CP4F3_MOUSE RecName: Full=Leukotriene-...  88.6    9e-17 
+  gi|5915839|sp|O48923.1|C71DA_SOYBN RecName: Full=Cytochrome P45...  87.8    1e-16 
+  gi|150438887|sp|Q9CX98.2|CP2U1_MOUSE RecName: Full=Cytochrome P...  87.8    1e-16 
+  gi|18314355|sp|Q43068.2|C82A1_PEA RecName: Full=Cytochrome P450...  88.2    1e-16 
+  gi|47605549|sp|Q9GQM9.1|CP6L1_BLAGE RecName: Full=Cytochrome P4...  87.8    1e-16 
+  gi|74762432|sp|Q7Z449.1|CP2U1_HUMAN RecName: Full=Cytochrome P4...  87.8    2e-16 
+  gi|5921932|sp|Q42600.1|C84A1_ARATH RecName: Full=Cytochrome P45...  87.8    2e-16 
+  gi|13878385|sp|Q9LTM2.1|C71BL_ARATH RecName: Full=Cytochrome P4...  87.4    2e-16 
+  gi|13878397|sp|Q9SAE4.1|C71BT_ARATH RecName: Full=Cytochrome P4...  87.0    2e-16 
+  gi|117282|sp|P12394.1|CP17A_CHICK RecName: Full=Steroid 17-alph...  87.0    2e-16 
+  gi|12644424|sp|Q27589.2|CP4D2_DROME RecName: Full=Cytochrome P4...  87.0    2e-16 
+  gi|902951540|sp|C0SPF7.2|C15C1_BOMMO RecName: Full=Farnesoate e...  87.0    2e-16 
+  gi|5915834|sp|O64635.1|C76C4_ARATH RecName: Full=Cytochrome P45...  87.0    3e-16 
+  gi|6166038|sp|P48421.2|C83A1_ARATH RecName: Full=Cytochrome P45...  86.7    3e-16 
+  gi|677992527|sp|L7X3S1.1|MSH_PAPSO RecName: Full=Methyltetrahyd...  87.0    3e-16 
+  gi|1169078|sp|P47195.1|C80A1_BERST RecName: Full=Berbamunine sy...  86.7    3e-16 
+  gi|75315259|sp|Q9XHE6.1|C71DF_MENPI RecName: Full=Cytochrome P4...  86.7    3e-16 
+  gi|313118168|sp|C0SJS3.1|ANGS_PASSA RecName: Full=Angelicin syn...  86.3    3e-16 
+  gi|584863|sp|P37117.1|C71A4_SOLME RecName: Full=Cytochrome P450...  86.7    3e-16 
+  gi|38503391|sp|O65788.2|C71B2_ARATH RecName: Full=Cytochrome P4...  86.3    4e-16 
+  gi|73917646|sp|Q7Y1V5.2|C78AB_ORYSJ RecName: Full=Cytochrome P4...  86.7    4e-16 
+  gi|2493397|sp|Q27515.1|C13A6_CAEEL RecName: Full=Putative cytoc...  86.3    4e-16 
+  gi|13878400|sp|Q9STK8.1|C71AP_ARATH RecName: Full=Cytochrome P4...  86.3    4e-16 
+  gi|11386695|sp|Q9V4U9.1|C6A13_DROME RecName: Full=Probable cyto...  86.3    5e-16 
+  gi|3913332|sp|Q27756.1|CP6B3_PAPPO RecName: Full=Cytochrome P45...  85.9    5e-16 
+  gi|11386668|sp|Q9VMS9.1|C4AC1_DROME RecName: Full=Probable cyto...  85.9    5e-16 
+  gi|74896776|sp|Q54CS3.1|C508C_DICDI RecName: Full=Probable cyto...  85.9    5e-16 
+  gi|5921915|sp|Q64409.1|CP3AH_CAVPO RecName: Full=Cytochrome P45...  85.9    5e-16 
+  gi|75309111|sp|Q9FIB0.1|C78A7_ARATH RecName: Full=Cytochrome P4...  86.3    5e-16 
+  gi|81908683|sp|Q4V8D1.1|CP2U1_RAT RecName: Full=Cytochrome P450...  85.9    6e-16 
+  gi|5915830|sp|Q96514.1|C71B7_ARATH RecName: Full=Cytochrome P45...  85.5    7e-16 
+  gi|1345641|sp|P49264.1|C71B1_THLAR RecName: Full=Cytochrome P45...  85.5    7e-16 
+  gi|12643629|sp|O65790.2|C81F1_ARATH RecName: Full=Cytochrome P4...  85.5    7e-16 
+  gi|75054173|sp|Q8SPK0.1|CP4AP_PIG RecName: Full=Cytochrome P450...  85.5    7e-16 
+  gi|13878386|sp|Q9LTM3.1|C71BK_ARATH RecName: Full=Cytochrome P4...  85.5    8e-16 
+  gi|13878399|sp|Q9STK7.1|C71AQ_ARATH RecName: Full=Cytochrome P4...  85.1    8e-16 
+  gi|11386681|sp|Q9VYQ7.1|CP311_DROME RecName: Full=Probable cyto...  85.1    9e-16 
+  gi|11386710|sp|Q9VFP1.1|CP6D5_DROME RecName: Full=Probable cyto...  85.1    1e-15 
+  gi|1706095|sp|P51871.1|CP4F6_RAT RecName: Full=Cytochrome P450 ...  85.1    1e-15 
+  gi|11386706|sp|Q9VB31.1|C6A18_DROME RecName: Full=Probable cyto...  85.1    1e-15 
+  gi|122096699|sp|Q1ZXG6.1|C5131_DICDI RecName: Full=Probable cyt...  85.1    1e-15 
+  gi|117181|sp|P16496.3|CP52C_CANMA RecName: Full=Cytochrome P450...  85.1    1e-15 
+  gi|30923413|sp|Q9LXM3.2|C71BZ_ARATH RecName: Full=Cytochrome P4...  85.1    1e-15 
+  gi|75289735|sp|Q69X58.1|C76M7_ORYSJ RecName: Full=Ent-cassadien...  84.7    1e-15 
+  gi|5921186|sp|Q43250.1|C71C1_MAIZE RecName: Full=3-hydroxyindol...  85.1    1e-15 
+  gi|21542404|sp|Q9LIP3.2|C71BY_ARATH RecName: Full=Cytochrome P4...  84.7    1e-15 
+  gi|231887|sp|P30608.1|CP52F_CANTR RecName: Full=Cytochrome P450...  85.1    1e-15 
+  gi|11386715|sp|Q9VRI9.1|CP6T1_DROME RecName: Full=Probable cyto...  84.7    1e-15 
+  gi|231902|sp|P30437.1|CP17A_ONCMY RecName: Full=Steroid 17-alph...  84.7    1e-15 
+  gi|5921185|sp|O64636.1|C76C1_ARATH RecName: Full=Cytochrome P45...  84.7    1e-15 
+  gi|416831|sp|Q04552.1|CP6B1_PAPPO RecName: Full=Cytochrome P450...  84.3    2e-15 
+  gi|3913345|sp|P70085.1|CP17A_ORYLA RecName: Full=Steroid 17-alp...  84.3    2e-15 
+  gi|334305730|sp|A6YIH8.1|C7D55_HYOMU RecName: Full=Premnaspirod...  84.3    2e-15 
+  gi|21263444|sp|Q98T91.1|C340_ORYLA RecName: Full=Cytochrome P45...  84.3    2e-15 
+  gi|223590183|sp|Q9Y757.2|CP52L_DEBHN RecName: Full=Cytochrome P...  84.3    2e-15 
+  gi|765680545|sp|I3PFJ5.1|C76AD_BETVU RecName: Full=Cytochrome P...  84.3    2e-15 
+  gi|2493400|sp|Q27518.1|C13A2_CAEEL RecName: Full=Putative cytoc...  84.3    2e-15 
+  gi|6166035|sp|Q64417.2|CP3AE_CAVPO RecName: Full=Cytochrome P45...  84.3    2e-15 
+  gi|75293996|sp|Q6YTF5.1|C76M5_ORYSJ RecName: Full=Cytochrome P4...  84.0    2e-15 
+  gi|5915822|sp|Q43135.3|C79A1_SORBI RecName: Full=Tyrosine N-mon...  84.3    2e-15 
+  gi|2493401|sp|Q27520.1|C13A1_CAEEL RecName: Full=Putative cytoc...  84.3    2e-15 
+  gi|12643911|sp|Q9V3S0.1|CP4G1_DROME RecName: Full=Cytochrome P4...  84.3    2e-15 
+  gi|313118200|sp|C0SJS4.1|C71AJ_APIGR RecName: Full=Psoralen syn...  83.6    2e-15 
+  gi|597500972|sp|H2DH24.1|C7D47_PANGI RecName: Full=Cytochrome P...  82.4    3e-15 
+  gi|939319655|sp|P0DKI7.1|STORR_PAPSO RecName: Full=Bifunctional...  84.7    3e-15 
+  gi|550600135|sp|F4JW83.1|C84A4_ARATH RecName: Full=Cytochrome P...  83.6    3e-15 
+  gi|62286619|sp|Q6VVX0.1|CP2R1_HUMAN RecName: Full=Vitamin D 25-...  83.6    3e-15 
+  gi|62286618|sp|Q6VVW9.1|CP2R1_MOUSE RecName: Full=Vitamin D 25-...  83.6    3e-15 
+  gi|75054174|sp|Q8SPK1.1|CP4AO_PIG RecName: Full=Cytochrome P450...  83.2    4e-15 
+  gi|1351206|sp|P48522.1|TCMO_CATRO RecName: Full=Trans-cinnamate...  83.2    4e-15 
+  gi|296439388|sp|Q9HBI6.3|CP4FB_HUMAN RecName: Full=Phylloquinon...  83.2    4e-15 
+  gi|12643927|sp|Q9W130.1|CP9C1_DROME RecName: Full=Cytochrome P4...  83.2    5e-15 
+  gi|11386756|sp|Q9VYT8.1|C28C1_DROME RecName: Full=Probable cyto...  82.8    5e-15 
+  gi|1706093|sp|P51869.1|CP4F4_RAT RecName: Full=Cytochrome P450 ...  82.8    5e-15 
+  gi|5915838|sp|O81971.1|C71D9_SOYBN RecName: Full=Cytochrome P45...  82.8    5e-15 
+  gi|122142141|sp|Q0IIF9.1|CP2U1_BOVIN RecName: Full=Cytochrome P...  82.8    5e-15 
+  gi|122239909|sp|Q94FM7.2|C71DK_TOBAC RecName: Full=5-epiaristol...  82.8    5e-15 
+  gi|75278888|sp|O81077.1|ABAH2_ARATH RecName: Full=Abscisic acid...  82.4    6e-15 
+  gi|1352187|sp|P48420.1|C78A1_MAIZE RecName: Full=Cytochrome P45...  82.8    6e-15 
+  gi|939319552|sp|D4AY62.1|A1131_ARTBC RecName: Full=Cytochrome P...  82.4    7e-15 
+  gi|13878396|sp|Q9SAE3.1|C71BS_ARATH RecName: Full=Cytochrome P4...  82.4    7e-15 
+  gi|1345642|sp|P48418.1|C75A1_PETHY RecName: Full=Flavonoid 3',5...  82.4    7e-15 
+  gi|254763392|sp|P24557.3|THAS_HUMAN RecName: Full=Thromboxane-A...  82.4    7e-15 
+  gi|11386694|sp|Q9V4U7.2|C6A14_DROME RecName: Full=Probable cyto...  82.4    7e-15 
+  gi|68053346|sp|Q09653.3|C13AA_CAEEL RecName: Full=Putative cyto...  82.4    8e-15 
+  gi|5915818|sp|Q96418.1|C75A5_EUSER RecName: Full=Flavonoid 3',5...  82.0    8e-15 
+  gi|74676625|sp|Q12581.1|CP52X_CANMA RecName: Full=Cytochrome P4...  82.4    8e-15 
+  gi|13878371|sp|P58050.1|C71BD_ARATH RecName: Full=Cytochrome P4...  82.0    9e-15 
+  gi|13878403|sp|Q9STL1.1|C71AM_ARATH RecName: Full=Cytochrome P4...  82.0    9e-15 
+  gi|117184|sp|P13527.1|CP6A1_MUSDO RecName: Full=Cytochrome P450...  82.0    1e-14 
+  gi|75067366|sp|Q9GJX5.1|CP4AL_PIG RecName: Full=Taurochenodeoxy...  82.0    1e-14 
+  gi|13878387|sp|Q9LTM4.1|C71BJ_ARATH RecName: Full=Cytochrome P4...  81.6    1e-14 
+  gi|75293566|sp|Q6XQ14.1|C71E7_MANES RecName: Full=2-methylbutan...  81.6    1e-14 
+  gi|75308935|sp|Q9CA60.1|C98A9_ARATH RecName: Full=Cytochrome P4...  81.6    1e-14 
+  gi|75315260|sp|Q9XHE7.1|C71DD_MENPI RecName: Full=Cytochrome P4...  81.6    1e-14 
+  gi|254784247|sp|Q2PG45.2|THAS_MACFA RecName: Full=Thromboxane-A...  81.6    1e-14 
+  gi|5915836|sp|P93531.1|C71D7_SOLCH RecName: Full=Cytochrome P45...  81.6    1e-14 
+  gi|13878380|sp|Q9LTL0.1|C71BQ_ARATH RecName: Full=Cytochrome P4...  81.6    1e-14 
+  gi|476007139|sp|E1B2Z9.1|C7AV8_CICIN RecName: Full=Cytochrome P...  81.3    1e-14 
+  gi|5921188|sp|P93703.1|C71C3_MAIZE RecName: Full=Cytochrome P45...  81.3    2e-14 
+  gi|476007210|sp|B9DFU2.1|MAX1_ARATH RecName: Full=Cytochrome P4...  81.3    2e-14 
+  gi|11386682|sp|Q9VYY4.1|C4G15_DROME RecName: Full=Cytochrome P4...  81.3    2e-14 
+  gi|5915840|sp|O22307.1|C71DB_LOTJA RecName: Full=Cytochrome P45...  80.9    2e-14 
+  gi|13878370|sp|P58049.1|C71BB_ARATH RecName: Full=Cytochrome P4...  80.9    2e-14 
+  gi|75311401|sp|Q9LNJ4.1|C70A2_ARATH RecName: Full=Cytochrome P4...  80.9    2e-14 
+  gi|5915832|sp|O64637.1|C76C2_ARATH RecName: Full=Cytochrome P45...  80.9    2e-14 
+  gi|11386754|sp|Q9VMT5.1|C28D1_DROME RecName: Full=Probable cyto...  80.9    2e-14 
+  gi|403399726|sp|B1NF18.1|C719B_PAPSO RecName: Full=Salutaridine...  80.9    2e-14 
+  gi|5915820|sp|O04790.1|C75A7_EUSER RecName: Full=Flavonoid 3',5...  80.9    2e-14 
+  gi|3915088|sp|Q43033.1|TCMO_PETCR RecName: Full=Trans-cinnamate...  80.5    3e-14 
+  gi|13878375|sp|Q9FLC8.1|C79A2_ARATH RecName: Full=Phenylalanine...  80.5    3e-14 
+  gi|56757430|sp|Q08477.2|CP4F3_HUMAN RecName: Full=Docosahexaeno...  80.5    3e-14 
+  gi|12644425|sp|Q27593.2|CP6A8_DROME RecName: Full=Cytochrome P4...  80.5    3e-14 
+  gi|75311167|sp|Q9LHA1.1|C8D11_ARATH RecName: Full=Cytochrome P4...  80.5    3e-14 
+  gi|1351234|sp|P47787.1|THAS_PIG RecName: Full=Thromboxane-A syn...  80.5    3e-14 
+  gi|13878377|sp|Q9LIP4.1|C71BX_ARATH RecName: Full=Cytochrome P4...  80.5    3e-14 
+  gi|74897378|sp|Q55BU9.1|C5133_DICDI RecName: Full=Probable cyto...  80.1    3e-14 
+  gi|55976407|sp|Q6GUQ4.1|CP2E1_MACMU RecName: Full=Cytochrome P4...  80.1    3e-14 
+  gi|47116761|sp|Q9EP75.1|CP4FE_MOUSE RecName: Full=Leukotriene-B...  80.5    3e-14 
+  gi|75314129|sp|Q9SZ46.1|C82C4_ARATH RecName: Full=Cytochrome P4...  80.1    4e-14 
+  gi|209572594|sp|Q9T0K2.2|C71AK_ARATH RecName: Full=Cytochrome P...  80.1    4e-14 
+  gi|3915111|sp|Q42797.1|TCMO_SOYBN RecName: Full=Trans-cinnamate...  80.1    4e-14 
+  gi|3913329|sp|Q12589.1|CP52K_CANMA RecName: Full=Cytochrome P45...  80.1    4e-14 
+  gi|2493377|sp|P70687.1|CP17A_MESAU RecName: Full=Steroid 17-alp...  80.1    4e-14 
+  gi|461810|sp|P33274.1|CP4F1_RAT RecName: Full=Cytochrome P450 4...  80.1    4e-14 
+  gi|5915829|sp|O65787.1|C71B6_ARATH RecName: Full=Cytochrome P45...  79.7    5e-14 
+  gi|313118201|sp|C0SJS2.1|C71AJ_PASSA RecName: Full=Psoralen syn...  79.7    5e-14 
+  gi|5915844|sp|O49858.1|C82A3_SOYBN RecName: Full=Cytochrome P45...  80.1    5e-14 
+  gi|75308936|sp|Q9CA61.1|C98A8_ARATH RecName: Full=Cytochrome P4...  79.7    5e-14 
+  gi|5921923|sp|Q64462.1|CP4B1_MOUSE RecName: Full=Cytochrome P45...  79.7    5e-14 
+  gi|1345643|sp|P48419.1|C75A3_PETHY RecName: Full=Flavonoid 3',5...  79.7    5e-14 
+  gi|117173|sp|P15129.3|CP4B1_RAT RecName: Full=Cytochrome P450 4...  79.7    5e-14 
+  gi|3913328|sp|Q12588.1|CP52J_CANMA RecName: Full=Cytochrome P45...  79.7    5e-14 
+  gi|6166044|sp|P78329.1|CP4F2_HUMAN RecName: Full=Phylloquinone ...  79.7    5e-14 
+  gi|3913337|sp|Q95036.1|CP6B5_PAPGL RecName: Full=Cytochrome P45...  79.3    6e-14 
+  gi|3913333|sp|Q27902.1|CP6B4_PAPGL RecName: Full=Cytochrome P45...  79.3    6e-14 
+  gi|1706092|sp|P51581.1|CP2E1_MESAU RecName: Full=Cytochrome P45...  79.3    6e-14 
+  gi|29337128|sp|Q9AR74.1|TCMO_RUTGR RecName: Full=Trans-cinnamat...  79.3    6e-14 
+  gi|75293242|sp|Q6WKY9.1|C7D95_MENGR RecName: Full=Cytochrome P4...  79.3    6e-14 
+  gi|15213938|sp|Q59990.1|CP120_SYNY3 RecName: Full=Putative cyto...  79.0    6e-14 
+  gi|117172|sp|P15128.1|CP4B1_RABIT RecName: Full=Cytochrome P450...  79.3    7e-14 
+  gi|34223741|sp|Q9PVE8.2|C330_FUNHE RecName: Full=Cytochrome P45...  79.3    7e-14 
+  gi|34222534|sp|Q8AXY5.1|C356_FUNHE RecName: Full=Cytochrome P45...  79.3    7e-14 
+  gi|13878365|sp|O65782.1|C83B1_ARATH RecName: Full=Cytochrome P4...  79.3    7e-14 
+  gi|75311232|sp|Q9LJY7.1|C75AK_ARATH RecName: Full=Cytochrome P4...  79.3    7e-14 
+  gi|109895138|sp|Q2KIG5.1|THAS_BOVIN RecName: Full=Thromboxane-A...  79.3    8e-14 
+  gi|75293995|sp|Q6YTF1.1|C76M8_ORYSJ RecName: Full=Oryzalexin D ...  79.0    9e-14 
+  gi|3915095|sp|Q96423.1|TCMO_GLYEC RecName: Full=Trans-cinnamate...  79.0    9e-14 
+  gi|13878390|sp|Q9LVD2.1|C71BA_ARATH RecName: Full=Cytochrome P4...  79.0    1e-13 
+  gi|5915828|sp|O65784.1|C71B5_ARATH RecName: Full=Cytochrome P45...  78.6    1e-13 
+  gi|12643563|sp|O46054.1|C4AE1_DROME RecName: Full=Cytochrome P4...  78.6    1e-13 
+  gi|47605531|sp|Q964T2.1|CP9E2_BLAGE RecName: Full=Cytochrome P4...  79.0    1e-13 
+  gi|75290511|sp|Q6IV13.1|C7D95_MENSP RecName: Full=Cytochrome P4...  78.6    1e-13 
+  gi|11386696|sp|Q9V675.1|CP6G2_DROME RecName: Full=Probable cyto...  78.6    1e-13 
+  gi|584865|sp|P37122.1|C76A2_SOLME RecName: Full=Cytochrome P450...  78.6    1e-13 
+  gi|403399731|sp|A3A871.1|C71Z6_ORYSJ RecName: Full=Ent-isokaure...  78.6    1e-13 
+  gi|347602396|sp|D5JBX1.1|GAO_BARSP RecName: Full=Germacrene A o...  78.6    1e-13 
+  gi|81891211|sp|Q6A152.1|CP4X1_MOUSE RecName: Full=Cytochrome P4...  78.2    1e-13 
+  gi|939319618|sp|I3V6B1.1|C80BX_PAPSO RecName: Full=(S)-N-methyl...  77.8    1e-13 
+  gi|47117814|sp|O64638.2|C76C3_ARATH RecName: Full=Cytochrome P4...  78.2    1e-13 
+  gi|5915837|sp|O81974.1|C71D8_SOYBN RecName: Full=Cytochrome P45...  78.2    1e-13 
+  gi|586082|sp|P37115.1|TCMO_VIGRR RecName: Full=Trans-cinnamate ...  78.2    2e-13 
+  gi|584998|sp|P37120.1|C75A2_SOLME RecName: Full=Flavonoid 3',5'...  78.2    2e-13 
+  gi|13878405|sp|Q9T0K0.1|C71AJ_ARATH RecName: Full=Cytochrome P4...  78.2    2e-13 
+  gi|75074557|sp|Q9MZY0.1|CP2E1_CANFA RecName: Full=Cytochrome P4...  77.8    2e-13 
+  gi|3915112|sp|Q43240.1|TCMO_ZINVI RecName: Full=Trans-cinnamate...  77.8    2e-13 
+  gi|75293244|sp|Q6WKZ1.1|C71DI_MENGR RecName: Full=Cytochrome P4...  77.8    2e-13 
+  gi|48429213|sp|P13584.2|CP4B1_HUMAN RecName: Full=Cytochrome P4...  77.8    2e-13 
+  gi|5915835|sp|P93530.1|C71D6_SOLCH RecName: Full=Cytochrome P45...  77.8    2e-13 
+  gi|1352193|sp|P05182.4|CP2E1_RAT RecName: Full=Cytochrome P450 ...  77.8    2e-13 
+  gi|75309080|sp|Q9FH76.1|ABAH3_ARATH RecName: Full=Abscisic acid...  77.4    2e-13 
+  gi|12643917|sp|Q9V769.1|C6A22_DROME RecName: Full=Cytochrome P4...  77.8    2e-13 
+  gi|11386699|sp|Q9V770.1|C6A17_DROME RecName: Full=Probable cyto...  77.4    2e-13 
+  gi|1351235|sp|P49430.1|THAS_RAT RecName: Full=Thromboxane-A syn...  77.8    2e-13 
+  gi|510791460|sp|B6SSW8.1|C14B3_MAIZE RecName: Full=Cytochrome P...  77.8    2e-13 
+  gi|11386656|sp|Q9VFJ0.2|CA131_DROME RecName: Full=Probable cyto...  77.4    3e-13 
+  gi|75306306|sp|Q949P1.1|ABAH1_ARATH RecName: Full=Abscisic acid...  77.4    3e-13 
+  gi|83288029|sp|Q91W64.2|CP270_MOUSE RecName: Full=Cytochrome P4...  77.4    3e-13 
+  gi|74897125|sp|Q54SK0.1|C508B_DICDI RecName: Full=Probable cyto...  77.4    3e-13 
+  gi|3913326|sp|Q12586.1|CP52I_CANMA RecName: Full=Cytochrome P45...  77.4    3e-13 
+  gi|19864010|sp|Q43067.2|TCMO_PEA RecName: Full=Trans-cinnamate ...  77.4    3e-13 
+  gi|5921933|sp|Q43147.1|C85A1_SOLLC RecName: Full=Cytochrome P45...  77.0    3e-13 
+  gi|3915096|sp|O24312.1|TCMO_POPTM RecName: Full=Trans-cinnamate...  77.0    3e-13 
+  gi|13878363|sp|O49342.1|C71AD_ARATH RecName: Full=Indoleacetald...  77.0    3e-13 
+  gi|13878407|sp|Q9ZU07.1|C71BC_ARATH RecName: Full=Cytochrome P4...  77.0    3e-13 
+  gi|403399725|sp|B5UAQ8.1|C7195_ESCCA RecName: Full=Cheilanthifo...  77.0    4e-13 
+  gi|75293214|sp|Q6WG30.2|T5H_TAXCU RecName: Full=Taxadiene 5-alp...  77.0    4e-13 
+  gi|13878372|sp|P58051.1|C71BE_ARATH RecName: Full=Cytochrome P4...  77.0    4e-13 
+  gi|117251|sp|P08682.2|CP2E1_RABIT RecName: Full=Cytochrome P450...  77.0    4e-13 
+  gi|75291702|sp|Q6QNI4.1|C71AJ_AMMMJ RecName: Full=Psoralen synt...  76.6    4e-13 
+  gi|408360033|sp|P56656.2|CP239_MOUSE RecName: Full=Cytochrome P...  76.6    4e-13 
+  gi|3915089|sp|Q43054.1|TCMO_POPKI RecName: Full=Trans-cinnamate...  76.6    4e-13 
+  gi|20141358|sp|P29980.3|CPXN_NOSS1 RecName: Full=Probable cytoc...  76.6    4e-13 
+  gi|75290769|sp|Q6JTJ0.1|T7H_TAXCU RecName: Full=Taxoid 7-beta-h...  76.6    5e-13 
+  gi|122108268|sp|Q1ZXA4.1|C508D_DICDI RecName: Full=Probable cyt...  76.6    5e-13 
+  gi|11386697|sp|Q9V676.1|CP6T3_DROME RecName: Full=Probable cyto...  76.6    5e-13 
+  gi|461815|sp|P33272.1|CP2BC_RAT RecName: Full=Cytochrome P450 2...  76.6    5e-13 
+  gi|62900102|sp|Q8WNW0.1|CP21A_CANFA RecName: Full=Steroid 21-hy...  76.3    5e-13 
+  gi|347602398|sp|D5JBX0.1|GAO_HELAN RecName: Full=Germacrene A o...  76.3    6e-13 
+  gi|13878402|sp|Q9STL0.1|C71AN_ARATH RecName: Full=Cytochrome P4...  76.3    6e-13 
+  gi|231888|sp|P30609.1|CP52G_CANTR RecName: Full=Cytochrome P450...  76.3    6e-13 
+  gi|117169|sp|P14581.1|CP4A7_RABIT RecName: Full=Cytochrome P450...  76.3    6e-13 
+  gi|74748981|sp|Q6NT55.1|CP4FN_HUMAN RecName: Full=Cytochrome P4...  76.3    6e-13 
+  gi|11386707|sp|Q9VCW1.1|CP6D4_DROME RecName: Full=Probable cyto...  76.3    6e-13 
+  gi|117250|sp|P05181.1|CP2E1_HUMAN RecName: Full=Cytochrome P450...  75.9    7e-13 
+  gi|28380196|sp|Q8W4T9.1|T13H_TAXCU RecName: Full=Taxane 13-alph...  75.9    8e-13 
+  gi|357529148|sp|Q12609.3|STCF_EMENI RecName: Full=Probable ster...  75.9    8e-13 
+  gi|75278028|sp|O49396.3|C82C3_ARATH RecName: Full=Cytochrome P4...  75.9    8e-13 
+  gi|33860151|sp|Q9VS79.2|CP4D8_DROME RecName: Full=Cytochrome P4...  75.5    9e-13 
+  gi|585695|sp|P38364.1|PID6_FUSSO RecName: Full=Pisatin demethyl...  75.9    9e-13 
+  gi|75311523|sp|Q9LSF8.1|C82G1_ARATH RecName: Full=Cytochrome P4...  75.9    9e-13 
+  gi|209572757|sp|Q9STK9.3|C71AO_ARATH RecName: Full=Cytochrome P...  75.5    1e-12 
+  gi|3915085|sp|P92994.1|TCMO_ARATH RecName: Full=Trans-cinnamate...  75.5    1e-12 
+  gi|21264413|sp|P51589.2|CP2J2_HUMAN RecName: Full=Cytochrome P4...  75.5    1e-12 
+  gi|117236|sp|P19225.1|CP270_RAT RecName: Full=Cytochrome P450 2...  75.5    1e-12 
+  gi|5915807|sp|O18596.1|C4D10_DROMT RecName: Full=Cytochrome P45...  75.5    1e-12 
+  gi|5921925|sp|O65012.1|C78A4_PINRA RecName: Full=Cytochrome P45...  75.5    1e-12 
+  gi|3913358|sp|Q92113.1|CP17A_SQUAC RecName: Full=Steroid 17-alp...  75.5    1e-12 
+  gi|117275|sp|P08686.1|CP21A_HUMAN RecName: Full=Steroid 21-hydr...  75.5    1e-12 
+  gi|584867|sp|P37124.1|C77A2_SOLME RecName: Full=Cytochrome P450...  75.5    1e-12 
+  gi|5921926|sp|O48927.1|C78A3_SOYBN RecName: Full=Cytochrome P45...  75.5    1e-12 
+  gi|403399720|sp|B5BSX1.1|BAMO_GLYUR RecName: Full=Beta-amyrin 1...  75.1    1e-12 
+  gi|12644083|sp|O81346.2|C79B2_ARATH RecName: Full=Tryptophan N-...  75.5    1e-12 
+  gi|597500954|sp|H2DH22.1|C7A10_PANGI RecName: Full=Cytochrome P...  75.5    1e-12 
+  gi|75305905|sp|Q93Z79.1|C14A1_ARATH RecName: Full=Cytochrome P4...  75.1    2e-12 
+  gi|5921182|sp|P33269.2|CP4D1_DROME RecName: Full=Cytochrome P45...  75.1    2e-12 
+  gi|5915806|sp|O16805.1|CP4D1_DROSI RecName: Full=Cytochrome P45...  74.7    2e-12 
+  gi|613782456|sp|P9WPM4.1|CP137_MYCTO RecName: Full=Putative cyt...  74.7    2e-12 
+  gi|22096338|sp|O64718.3|C71B9_ARATH RecName: Full=Cytochrome P4...  74.7    2e-12 
+  gi|461822|sp|P33263.1|CP2CQ_MESAU RecName: Full=Cytochrome P450...  74.7    2e-12 
+  gi|417863|sp|Q04468.1|TCMO_HELTU RecName: Full=Trans-cinnamate ...  74.7    2e-12 
+  gi|75278027|sp|O49394.2|C82C2_ARATH RecName: Full=Cytochrome P4...  74.7    2e-12 
+  gi|75294156|sp|Q6Z5I7.1|C76M6_ORYSJ RecName: Full=Oryzalexin E ...  74.7    2e-12 
+  gi|403399729|sp|B1NF20.1|C719E_ARGME RecName: Full=Cheilanthifo...  74.3    2e-12 
+  gi|238054322|sp|Q12608.2|STCB_EMENI RecName: Full=Probable ster...  74.3    2e-12 
+  gi|14917048|sp|O81928.2|TCMO_CICAR RecName: Full=Trans-cinnamat...  74.3    3e-12 
+  gi|403399733|sp|D1MI46.1|C76BA_SWEMU RecName: Full=Geraniol 8-h...  74.3    3e-12 
+  gi|117228|sp|P08683.1|CP2CB_RAT RecName: Full=Cytochrome P450 2...  74.3    3e-12 
+  gi|13878902|sp|O65785.2|C71B3_ARATH RecName: Full=Cytochrome P4...  73.9    3e-12 
+  gi|75161264|sp|Q8VWZ7.1|C76B6_CATRO RecName: Full=Geraniol 8-hy...  73.9    3e-12 
+  gi|215273959|sp|P20853.2|CP2A7_HUMAN RecName: Full=Cytochrome P...  73.9    3e-12 
+  gi|75319886|sp|Q50EK4.1|C75A1_PINTA RecName: Full=Cytochrome P4...  73.9    3e-12 
+  gi|2828213|sp|P36423.2|THAS_MOUSE RecName: Full=Thromboxane-A s...  73.9    3e-12 
+  gi|584866|sp|P37123.1|C77A1_SOLME RecName: Full=Cytochrome P450...  73.9    3e-12 
+  gi|5915824|sp|O81345.1|C79B1_SINAL RecName: Full=Cytochrome P45...  73.9    4e-12 
+  gi|461827|sp|P33266.1|CP2E1_MACFA RecName: Full=Cytochrome P450...  73.6    4e-12 
+  gi|33860142|sp|Q9VHP4.2|CP313_DROME RecName: Full=Probable cyto...  73.6    4e-12 
+  gi|13878362|sp|O49340.1|C71AC_ARATH RecName: Full=Cytochrome P4...  73.6    4e-12 
+  gi|597500955|sp|H2DH18.1|C7A12_PANGI RecName: Full=Cytochrome P...  73.6    5e-12 
+  gi|117168|sp|P14580.1|CP4A6_RABIT RecName: Full=Cytochrome P450...  73.6    5e-12 
+  gi|13878404|sp|Q9STL2.1|C71AL_ARATH RecName: Full=Cytochrome P4...  73.2    5e-12 
+  gi|38503035|sp|Q8HYN1.1|CP17A_PANTR RecName: Full=Steroid 17-al...  73.6    5e-12 
+  gi|47605405|sp|Q27698.1|CP6D1_MUSDO RecName: Full=Cytochrome P4...  73.6    5e-12 
+  gi|47605527|sp|Q964Q7.1|CP6D3_MUSDO RecName: Full=Cytochrome P4...  73.6    5e-12 
+  gi|17366212|sp|O81117.2|C94A1_VICSA RecName: Full=Cytochrome P4...  73.2    5e-12 
+  gi|5921919|sp|O42563.1|CP3AR_ONCMY RecName: Full=Cytochrome P45...  73.2    5e-12 
+  gi|408360032|sp|P56655.2|CP238_MOUSE RecName: Full=Cytochrome P...  73.2    6e-12 
+  gi|117283|sp|P05093.1|CP17A_HUMAN RecName: Full=Steroid 17-alph...  73.2    6e-12 
+  gi|75293243|sp|Q6WKZ0.1|C7D94_MENGR RecName: Full=Cytochrome P4...  73.2    6e-12 
+  gi|586081|sp|P37114.1|TCMO_MEDSA RecName: Full=Trans-cinnamate ...  73.2    6e-12 
+  gi|11386700|sp|Q9V771.2|C6A23_DROME RecName: Full=Probable cyto...  72.8    7e-12 
+  gi|117230|sp|P20814.1|CP2CD_RAT RecName: Full=Cytochrome P450 2...  72.8    7e-12 
+  gi|5915816|sp|O81970.1|C71A9_SOYBN RecName: Full=Cytochrome P45...  72.8    7e-12 
+  gi|85681925|sp|P24464.2|CP4AC_RAT RecName: Full=Cytochrome P450...  72.8    7e-12 
+  gi|75311622|sp|Q9LVD6.1|C81F2_ARATH RecName: Full=Cytochrome P4...  72.8    7e-12 
+  gi|231889|sp|P30610.1|CP52H_CANTR RecName: Full=Cytochrome P450...  72.8    7e-12 
+  gi|380865481|sp|Q9VMS8.4|C4AC2_DROME RecName: Full=Probable cyt...  72.8    8e-12 
+  gi|27151499|sp|Q9SD85.1|F3PH_ARATH RecName: Full=Flavonoid 3'-m...  72.8    8e-12 
+  gi|75294022|sp|Q6YV88.1|C71Z7_ORYSJ RecName: Full=Ent-cassadien...  72.8    8e-12 
+  gi|117167|sp|P14579.1|CP4A5_RABIT RecName: Full=Cytochrome P450...  72.4    9e-12 
+  gi|75306308|sp|Q949U1.1|C79F1_ARATH RecName: Full=Dihomomethion...  72.4    1e-11 
+  gi|75311380|sp|Q9LMX7.1|C78A5_ARATH RecName: Full=Cytochrome P4...  72.4    1e-11 
+  gi|5921952|sp|O18963.1|CP2E1_BOVIN RecName: Full=Cytochrome P45...  72.4    1e-11 
+  gi|75309106|sp|Q9FI39.1|THAD_ARATH RecName: Full=Cytochrome P45...  72.4    1e-11 
+  gi|3915154|sp|Q12612.1|TRI4_FUSSP RecName: Full=Trichodiene oxy...  72.4    1e-11 
+  gi|166225921|sp|Q9FUY7.2|C79F2_ARATH RecName: Full=Hexahomometh...  72.4    1e-11 
+  gi|476007172|sp|G3GBK0.1|C7BL3_CICIN RecName: Full=Costunolide ...  72.4    1e-11 
+  gi|6686268|sp|P11712.3|CP2C9_HUMAN RecName: Full=Cytochrome P45...  72.4    1e-11 
+  gi|1706096|sp|P52786.2|CP2J1_RABIT RecName: Full=Cytochrome P45...  72.4    1e-11 
+  gi|122129492|sp|Q556M4.1|C5082_DICDI RecName: Full=Probable cyt...  72.0    1e-11 
+  gi|54036809|sp|P63718.1|CP138_MYCBO RecName: Full=Putative cyto...  71.6    1e-11 
+  gi|5915855|sp|O48921.1|C97B2_SOYBN RecName: Full=Cytochrome P45...  72.4    1e-11 
+  gi|74896970|sp|Q54KV0.1|C513B_DICDI RecName: Full=Probable cyto...  72.0    1e-11 
+  gi|3913305|sp|P56590.1|CP1A1_CANFA RecName: Full=Cytochrome P45...  72.0    1e-11 
+  gi|74897074|sp|Q54QD2.1|C5171_DICDI RecName: Full=Probable cyto...  72.0    1e-11 
+  gi|2493396|sp|Q27514.1|C13A5_CAEEL RecName: Full=Putative cytoc...  72.0    1e-11 
+  gi|50401152|sp|Q9C5Y2.2|KAO2_ARATH RecName: Full=Ent-kaurenoic ...  72.0    1e-11 
+  gi|11386649|sp|Q9V4T5.1|CP4E1_DROME RecName: Full=Probable cyto...  72.0    1e-11 
+  gi|332278166|sp|O64989.2|C90B1_ARATH RecName: Full=Cytochrome P...  72.0    1e-11 
+  gi|231891|sp|P30612.1|CP52P_CANTR RecName: Full=Cytochrome P450...  72.0    1e-11 
+  gi|510120843|sp|B9G934.2|C14C3_ORYSJ RecName: Full=Cytochrome P...  72.0    1e-11 
+  gi|122163981|sp|Q05JG2.1|ABAH1_ORYSJ RecName: Full=Abscisic aci...  71.6    1e-11 
+  gi|75292264|sp|Q6TBX7.1|LUT1_ARATH RecName: Full=Carotene epsil...  72.0    2e-11 
+  gi|597500967|sp|I7CT85.1|C7A53_PANGI RecName: Full=Protopanaxad...  71.6    2e-11 
+  gi|3929362|sp|Q12645.1|PID9_FUSSO RecName: Full=Pisatin demethy...  71.6    2e-11 
+  gi|122119941|sp|Q1ZXI7.1|C513F_DICDI RecName: Full=Probable cyt...  71.6    2e-11 
+  gi|2493371|sp|Q02928.1|CP4AB_HUMAN RecName: Full=Cytochrome P45...  71.6    2e-11 
+  gi|22096348|sp|Q9V559.3|CP4P3_DROME RecName: Full=Probable cyto...  71.6    2e-11 
+  gi|122108270|sp|Q1ZXF3.1|C5172_DICDI RecName: Full=Probable cyt...  71.6    2e-11 
+  gi|75315258|sp|Q9XHC6.1|C93E1_SOYBN RecName: Full=Beta-amyrin 2...  71.6    2e-11 
+  gi|117224|sp|P05179.2|CP2C7_RAT RecName: Full=Cytochrome P450 2...  71.2    2e-11 
+  gi|476007112|sp|F8S1H3.1|C7BL1_HELAN RecName: Full=Cytochrome P...  71.2    2e-11 
+  gi|27151498|sp|Q9SBQ9.1|F3PH_PETHY RecName: Full=Flavonoid 3'-m...  71.2    2e-11 
+  gi|166215084|sp|Q9VG40.4|CP134_DROME RecName: Full=Probable cyt...  71.2    2e-11 
+  gi|48428134|sp|Q96SQ9.2|CP2S1_HUMAN RecName: Full=Cytochrome P4...  71.2    2e-11 
+  gi|341940401|sp|P56657.2|CP240_MOUSE RecName: Full=Cytochrome P...  71.2    2e-11 
+  gi|308153612|sp|P11509.3|CP2A6_HUMAN RecName: Full=Cytochrome P...  71.2    2e-11 
+  gi|3915653|sp|P24456.2|CP2DA_MOUSE RecName: Full=Cytochrome P45...  71.2    3e-11 
+  gi|341940400|sp|P56654.2|CP237_MOUSE RecName: Full=Cytochrome P...  70.9    3e-11 
+  gi|12585216|sp|Q9WVK8.1|CP46A_MOUSE RecName: Full=Cholesterol 2...  70.9    3e-11 
+  gi|75312213|sp|Q9M7B7.1|C79D2_MANES RecName: Full=Valine N-mono...  71.2    3e-11 
+  gi|74897073|sp|Q54QD0.1|C5174_DICDI RecName: Full=Probable cyto...  70.9    3e-11 
+  gi|341940390|sp|O88833.2|CP4AA_MOUSE RecName: Full=Cytochrome P...  70.9    3e-11 
+  gi|75311715|sp|Q9LZ31.1|C77A4_ARATH RecName: Full=Cytochrome P4...  70.9    3e-11 
+  gi|12643914|sp|Q9V558.1|CP4P1_DROME RecName: Full=Cytochrome P4...  70.9    3e-11 
+  gi|12644217|sp|P33270.2|CP6A2_DROME RecName: Full=Cytochrome P4...  70.9    3e-11 
+  gi|117235|sp|P15123.1|CP2CG_RABIT RecName: Full=Cytochrome P450...  70.5    4e-11 
+  gi|50401144|sp|Q9AXH9.1|KAO1_HORVU RecName: Full=Ent-kaurenoic ...  70.5    4e-11 
+  gi|61213008|sp|Q95M61.2|CP19A_CALJA RecName: Full=Aromatase; Al...  70.5    4e-11 
+  gi|74897341|sp|Q556M5.1|C5081_DICDI RecName: Full=Probable cyto...  70.5    4e-11 
+  gi|74897129|sp|Q54SN0.1|C513E_DICDI RecName: Full=Probable cyto...  70.5    4e-11 
+  gi|597500969|sp|H2DH16.2|C7A47_PANGI RecName: Full=Dammarenedio...  70.5    4e-11 
+  gi|12585217|sp|Q9Y6A2.1|CP46A_HUMAN RecName: Full=Cholesterol 2...  70.5    4e-11 
+  gi|146345403|sp|P11711.2|CP2A1_RAT RecName: Full=Cytochrome P45...  70.5    4e-11 
+  gi|5915847|sp|Q43246.1|C88A1_MAIZE RecName: Full=Cytochrome P45...  70.5    4e-11 
+  gi|148872479|sp|Q9LJK2.2|ABAH4_ARATH RecName: Full=Abscisic aci...  70.5    4e-11 
+  gi|75278877|sp|O80823.1|C86A8_ARATH RecName: Full=Cytochrome P4...  70.5    4e-11 
+  gi|74697209|sp|Q8J0F6.1|MLCC_PENCI RecName: Full=DihydroML-236B...  70.5    4e-11 
+  gi|146345404|sp|P08516.2|CP4AA_RAT RecName: Full=Cytochrome P45...  70.5    4e-11 
+  gi|117164|sp|P20816.2|CP4A2_RAT RecName: Full=Cytochrome P450 4...  70.5    4e-11 
+  gi|510120841|sp|Q7XHW5.2|C14B1_ORYSJ RecName: Full=Cytochrome P...  70.5    5e-11 
+  gi|347602397|sp|D5JBW8.1|GAO_CICIN RecName: Full=Germacrene A o...  70.1    5e-11 
+  gi|3913306|sp|P56591.1|CP1A1_SHEEP RecName: Full=Cytochrome P45...  70.5    5e-11 
+  gi|6166039|sp|P00182.2|CP2C3_RABIT RecName: Full=Cytochrome P45...  70.1    5e-11 
+  gi|75319884|sp|Q50EK1.1|C16B1_PICSI RecName: Full=Cytochrome P4...  70.1    5e-11 
+  gi|117221|sp|P11371.1|CP2C4_RABIT RecName: Full=Cytochrome P450...  70.1    5e-11 
+  gi|1706098|sp|P51590.1|CP2J3_RAT RecName: Full=Cytochrome P450 ...  70.1    5e-11 
+  gi|510120842|sp|Q0DS59.2|C14B2_ORYSJ RecName: Full=Cytochrome P...  70.1    5e-11 
+  gi|75313563|sp|Q9SLP1.1|C78A9_ARATH RecName: Full=Cytochrome P4...  70.1    5e-11 
+  gi|3913341|sp|O54749.1|CP2J5_MOUSE RecName: Full=Cytochrome P45...  70.1    6e-11 
+  gi|117196|sp|P20852.1|CP2A5_MOUSE RecName: Full=Cytochrome P450...  70.1    6e-11 
+  gi|347602400|sp|D5JBW9.1|GAO_SAUCO RecName: Full=Germacrene A o...  70.1    6e-11 
+  gi|122221939|sp|Q0J185.1|ABAH3_ORYSJ RecName: Full=Abscisic aci...  70.1    6e-11 
+  gi|67476954|sp|P33260.3|CP2CI_HUMAN RecName: Full=Cytochrome P4...  69.7    6e-11 
+  gi|347602399|sp|D5J9U8.1|GAO_LACSA RecName: Full=Germacrene A o...  69.7    6e-11 
+  gi|117193|sp|P15149.1|CP2A2_RAT RecName: Full=Cytochrome P450 2...  69.7    6e-11 
+  gi|544584818|sp|P16141.4|CP52D_CANMA RecName: Full=Cytochrome P...  70.1    6e-11 
+  gi|75280114|sp|P98183.1|C71DC_CATRO RecName: Full=Tabersonine 1...  69.7    6e-11 
+  gi|74896835|sp|Q54F47.1|C513C_DICDI RecName: Full=Probable cyto...  69.7    6e-11 
+  gi|21542394|sp|O65438.3|C71AR_ARATH RecName: Full=Cytochrome P4...  69.7    6e-11 
+  gi|3915657|sp|Q00557.2|CP1A1_MESAU RecName: Full=Cytochrome P45...  69.7    6e-11 
+  gi|2493376|sp|Q64410.1|CP17A_CAVPO RecName: Full=Steroid 17-alp...  69.7    7e-11 
+  gi|81886635|sp|O35728.1|CP4AE_MOUSE RecName: Full=Cytochrome P4...  69.7    7e-11 
+  gi|152126081|sp|A2Z212.1|ABAH3_ORYSI RecName: Full=Abscisic aci...  69.7    7e-11 
+  gi|226693505|sp|Q9V7G5.2|C4AA1_DROME RecName: Full=Probable cyt...  69.7    7e-11 
+  gi|75288425|sp|Q5Z5R7.1|C701S_ORYSJ RecName: Full=Ent-kaurene o...  69.7    7e-11 
+  gi|114152789|sp|P00179.2|CP2C5_RABIT RecName: Full=Cytochrome P...  69.7    7e-11 
+  gi|76363495|sp|Q5IZM4.1|CP51_MYCVP RecName: Full=Lanosterol 14-...  69.3    8e-11 
+  gi|3913321|sp|O61387.1|CP6B7_HELAM RecName: Full=Cytochrome P45...  69.7    8e-11 
+  gi|117284|sp|P27786.1|CP17A_MOUSE RecName: Full=Steroid 17-alph...  69.3    8e-11 
+  gi|62901495|sp|O17624.2|C13B1_CAEEL RecName: Full=Putative cyto...  69.3    8e-11 
+  gi|62899902|sp|Q64562.1|CP21A_RAT RecName: Full=Steroid 21-hydr...  69.3    8e-11 
+  gi|3913336|sp|Q95031.1|CP6B6_HELAM RecName: Full=Cytochrome P45...  69.3    9e-11 
+  gi|3121918|sp|O42145.1|C19AA_DANRE RecName: Full=Aromatase; Alt...  69.3    9e-11 
+  gi|75319827|sp|Q501D8.1|C79B3_ARATH RecName: Full=Tryptophan N-...  69.3    9e-11 
+
+
+> gi|215274267|sp|P15538.5|C11B1_HUMAN RecName: Full=Cytochrome 
+P450 11B1, mitochondrial; AltName: Full=CYPXIB1; AltName: Full=Cytochrome 
+P-450c11; Short=Cytochrome P450C11; AltName: 
+Full=Steroid 11-beta-hydroxylase; Flags: Precursor
+Length=503
+
+ Score = 1033 bits (2670),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 503/503 (100%), Positives = 503/503 (100%), Gaps = 0/503 (0%)
+
+Query  3    MALRAKAEVCMAVPWLSLQRAQALGTRAARVPRTVLPFEAMPRRPGNRWLRLLQIWREQG  62
+            MALRAKAEVCMAVPWLSLQRAQALGTRAARVPRTVLPFEAMPRRPGNRWLRLLQIWREQG
+Sbjct  1    MALRAKAEVCMAVPWLSLQRAQALGTRAARVPRTVLPFEAMPRRPGNRWLRLLQIWREQG  60
+
+Query  63   YEDLHLEVHQTFQELGPIFRYDLGGAGMVCVMLPEDVEKLQQVDSLHPHRMSLEPWVAYR  122
+            YEDLHLEVHQTFQELGPIFRYDLGGAGMVCVMLPEDVEKLQQVDSLHPHRMSLEPWVAYR
+Sbjct  61   YEDLHLEVHQTFQELGPIFRYDLGGAGMVCVMLPEDVEKLQQVDSLHPHRMSLEPWVAYR  120
+
+Query  123  QHRGHKCGVFLLNGPEWRFNRLRLNPEVLSPNAVQRFLPMVDAVARDFSQALKKKVLQNA  182
+            QHRGHKCGVFLLNGPEWRFNRLRLNPEVLSPNAVQRFLPMVDAVARDFSQALKKKVLQNA
+Sbjct  121  QHRGHKCGVFLLNGPEWRFNRLRLNPEVLSPNAVQRFLPMVDAVARDFSQALKKKVLQNA  180
+
+Query  183  RGSLTLDVQPSIFHYTIEASNLALFGERLGLVGHSPSSASLNFLHALEVMFKSTVQLMFM  242
+            RGSLTLDVQPSIFHYTIEASNLALFGERLGLVGHSPSSASLNFLHALEVMFKSTVQLMFM
+Sbjct  181  RGSLTLDVQPSIFHYTIEASNLALFGERLGLVGHSPSSASLNFLHALEVMFKSTVQLMFM  240
+
+Query  243  PRSLSRWTSPKVWKEHFEAWDCIFQYGDNCIQKIYQELAFSRPQQYTSIVAELLLNAELS  302
+            PRSLSRWTSPKVWKEHFEAWDCIFQYGDNCIQKIYQELAFSRPQQYTSIVAELLLNAELS
+Sbjct  241  PRSLSRWTSPKVWKEHFEAWDCIFQYGDNCIQKIYQELAFSRPQQYTSIVAELLLNAELS  300
+
+Query  303  PDAIKANSMELTAGSVDTTVFPLLMTLFELARNPNVQQALRQESLAAAASISEHPQKATT  362
+            PDAIKANSMELTAGSVDTTVFPLLMTLFELARNPNVQQALRQESLAAAASISEHPQKATT
+Sbjct  301  PDAIKANSMELTAGSVDTTVFPLLMTLFELARNPNVQQALRQESLAAAASISEHPQKATT  360
+
+Query  363  ELPLLRAALKETLRLYPVGLFLERVASSDLVLQNYHIPAGTLVRVFLYSLGRNPALFPRP  422
+            ELPLLRAALKETLRLYPVGLFLERVASSDLVLQNYHIPAGTLVRVFLYSLGRNPALFPRP
+Sbjct  361  ELPLLRAALKETLRLYPVGLFLERVASSDLVLQNYHIPAGTLVRVFLYSLGRNPALFPRP  420
+
+Query  423  ERYNPQRWLDIRGSGRNFYHVPFGFGMRQCLGRRLAEAEMLLLLHHVLKHLQVETLTQED  482
+            ERYNPQRWLDIRGSGRNFYHVPFGFGMRQCLGRRLAEAEMLLLLHHVLKHLQVETLTQED
+Sbjct  421  ERYNPQRWLDIRGSGRNFYHVPFGFGMRQCLGRRLAEAEMLLLLHHVLKHLQVETLTQED  480
+
+Query  483  IKMVYSFILRPSMFPLLTFRAIN  505
+            IKMVYSFILRPSMFPLLTFRAIN
+Sbjct  481  IKMVYSFILRPSMFPLLTFRAIN  503
+
+
+> gi|2493374|sp|Q29527.1|C11B1_PAPHU RecName: Full=Cytochrome P450 
+11B1, mitochondrial; AltName: Full=CYPXIB1; AltName: Full=Cytochrome 
+P450C11; AltName: Full=Steroid 11-beta-hydroxylase; 
+Flags: Precursor [Papio ursinus]
+Length=503
+
+ Score = 1000 bits (2585),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 486/503 (97%), Positives = 494/503 (98%), Gaps = 0/503 (0%)
+
+Query  3    MALRAKAEVCMAVPWLSLQRAQALGTRAARVPRTVLPFEAMPRRPGNRWLRLLQIWREQG  62
+            MALRAKAEVCMA PWLSLQRA+ALGTRA RVPRTVLPFEAMPRRPGNRWLRLLQIWREQG
+Sbjct  1    MALRAKAEVCMAAPWLSLQRARALGTRATRVPRTVLPFEAMPRRPGNRWLRLLQIWREQG  60
+
+Query  63   YEDLHLEVHQTFQELGPIFRYDLGGAGMVCVMLPEDVEKLQQVDSLHPHRMSLEPWVAYR  122
+            YE LHLEVHQTFQELGPIFRYDLGGAGMVCVMLPEDVEKLQQVDSL+P RMSLEPWVAYR
+Sbjct  61   YEHLHLEVHQTFQELGPIFRYDLGGAGMVCVMLPEDVEKLQQVDSLNPRRMSLEPWVAYR  120
+
+Query  123  QHRGHKCGVFLLNGPEWRFNRLRLNPEVLSPNAVQRFLPMVDAVARDFSQALKKKVLQNA  182
+            QHRGHKCGVFLLNGPEWRFNRLRLNP+VLSP AVQRFLPMVDAVARDFSQAL+KKV+QNA
+Sbjct  121  QHRGHKCGVFLLNGPEWRFNRLRLNPDVLSPKAVQRFLPMVDAVARDFSQALRKKVVQNA  180
+
+Query  183  RGSLTLDVQPSIFHYTIEASNLALFGERLGLVGHSPSSASLNFLHALEVMFKSTVQLMFM  242
+            R S+TLD+QPSIFHYTIEASNLALFGERLGLVGHSPSSASL+FLHALEVMFKSTVQLMFM
+Sbjct  181  RESVTLDIQPSIFHYTIEASNLALFGERLGLVGHSPSSASLSFLHALEVMFKSTVQLMFM  240
+
+Query  243  PRSLSRWTSPKVWKEHFEAWDCIFQYGDNCIQKIYQELAFSRPQQYTSIVAELLLNAELS  302
+            PRSLSRWTSPKVWKEHFEAWDCIFQYGDNCIQKIYQELA SRPQQYTSIVAELLLNAELS
+Sbjct  241  PRSLSRWTSPKVWKEHFEAWDCIFQYGDNCIQKIYQELALSRPQQYTSIVAELLLNAELS  300
+
+Query  303  PDAIKANSMELTAGSVDTTVFPLLMTLFELARNPNVQQALRQESLAAAASISEHPQKATT  362
+            PDAIKANSMELTAGSVDTTVFPLLMTLFELARNPNVQQALRQESLAAAASISEHPQKATT
+Sbjct  301  PDAIKANSMELTAGSVDTTVFPLLMTLFELARNPNVQQALRQESLAAAASISEHPQKATT  360
+
+Query  363  ELPLLRAALKETLRLYPVGLFLERVASSDLVLQNYHIPAGTLVRVFLYSLGRNPALFPRP  422
+            ELPLLRAALKETLRLYPVGLFLERV SSDLVLQNYHIPAGTLVRVFLYSLGRNPALFPRP
+Sbjct  361  ELPLLRAALKETLRLYPVGLFLERVVSSDLVLQNYHIPAGTLVRVFLYSLGRNPALFPRP  420
+
+Query  423  ERYNPQRWLDIRGSGRNFYHVPFGFGMRQCLGRRLAEAEMLLLLHHVLKHLQVETLTQED  482
+            ERYNPQRWLDIRGSGRNFYHVPFGFGMRQCLGRRLAEAEMLLLLHHVLKHLQVETLTQED
+Sbjct  421  ERYNPQRWLDIRGSGRNFYHVPFGFGMRQCLGRRLAEAEMLLLLHHVLKHLQVETLTQED  480
+
+Query  483  IKMVYSFILRPSMFPLLTFRAIN  505
+            IKMVYSFILRPS FPLLTFRAIN
+Sbjct  481  IKMVYSFILRPSTFPLLTFRAIN  503
+
+
+> gi|3041666|sp|P19099.3|C11B2_HUMAN RecName: Full=Cytochrome P450 
+11B2, mitochondrial; AltName: Full=Aldosterone synthase; 
+Short=ALDOS; AltName: Full=Aldosterone-synthesizing enzyme; 
+AltName: Full=CYPXIB2; AltName: Full=Cytochrome P-450Aldo; 
+AltName: Full=Cytochrome P-450C18; AltName: Full=Steroid 18-hydroxylase; 
+Flags: Precursor
+Length=503
+
+ Score = 920 bits (2379),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 469/503 (93%), Positives = 480/503 (95%), Gaps = 0/503 (0%)
+
+Query  3    MALRAKAEVCMAVPWLSLQRAQALGTRAARVPRTVLPFEAMPRRPGNRWLRLLQIWREQG  62
+            MALRAKAEVC+A PWLSLQRA+ALGTRAAR PRTVLPFEAMP+ PGNRWLRLLQIWREQG
+Sbjct  1    MALRAKAEVCVAAPWLSLQRARALGTRAARAPRTVLPFEAMPQHPGNRWLRLLQIWREQG  60
+
+Query  63   YEDLHLEVHQTFQELGPIFRYDLGGAGMVCVMLPEDVEKLQQVDSLHPHRMSLEPWVAYR  122
+            YE LHLE+HQTFQELGPIFRY+LGG  MVCVMLPEDVEKLQQVDSLHP RM LEPWVAYR
+Sbjct  61   YEHLHLEMHQTFQELGPIFRYNLGGPRMVCVMLPEDVEKLQQVDSLHPCRMILEPWVAYR  120
+
+Query  123  QHRGHKCGVFLLNGPEWRFNRLRLNPEVLSPNAVQRFLPMVDAVARDFSQALKKKVLQNA  182
+            QHRGHKCGVFLLNGPEWRFNRLRLNP+VLSP AVQRFLPMVDAVARDFSQALKKKVLQNA
+Sbjct  121  QHRGHKCGVFLLNGPEWRFNRLRLNPDVLSPKAVQRFLPMVDAVARDFSQALKKKVLQNA  180
+
+Query  183  RGSLTLDVQPSIFHYTIEASNLALFGERLGLVGHSPSSASLNFLHALEVMFKSTVQLMFM  242
+            RGSLTLDVQPSIFHYTIEASNLALFGERLGLVGHSPSSASLNFLHALEVMFKSTVQLMFM
+Sbjct  181  RGSLTLDVQPSIFHYTIEASNLALFGERLGLVGHSPSSASLNFLHALEVMFKSTVQLMFM  240
+
+Query  243  PRSLSRWTSPKVWKEHFEAWDCIFQYGDNCIQKIYQELAFSRPQQYTSIVAELLLNAELS  302
+            PRSLSRW SPKVWKEHFEAWDCIFQYGDNCIQKIYQELAF+RPQ YT IVAELLL AELS
+Sbjct  241  PRSLSRWISPKVWKEHFEAWDCIFQYGDNCIQKIYQELAFNRPQHYTGIVAELLLKAELS  300
+
+Query  303  PDAIKANSMELTAGSVDTTVFPLLMTLFELARNPNVQQALRQESLAAAASISEHPQKATT  362
+             +AIKANSMELTAGSVDTT FPLLMTLFELARNP+VQQ LRQESLAAAASISEHPQKATT
+Sbjct  301  LEAIKANSMELTAGSVDTTAFPLLMTLFELARNPDVQQILRQESLAAAASISEHPQKATT  360
+
+Query  363  ELPLLRAALKETLRLYPVGLFLERVASSDLVLQNYHIPAGTLVRVFLYSLGRNPALFPRP  422
+            ELPLLRAALKETLRLYPVGLFLERV SSDLVLQNYHIPAGTLV+VFLYSLGRN ALFPRP
+Sbjct  361  ELPLLRAALKETLRLYPVGLFLERVVSSDLVLQNYHIPAGTLVQVFLYSLGRNAALFPRP  420
+
+Query  423  ERYNPQRWLDIRGSGRNFYHVPFGFGMRQCLGRRLAEAEMLLLLHHVLKHLQVETLTQED  482
+            ERYNPQRWLDIRGSGRNF+HVPFGFGMRQCLGRRLAEAEMLLLLHHVLKH  VETLTQED
+Sbjct  421  ERYNPQRWLDIRGSGRNFHHVPFGFGMRQCLGRRLAEAEMLLLLHHVLKHFLVETLTQED  480
+
+Query  483  IKMVYSFILRPSMFPLLTFRAIN  505
+            IKMVYSFILRP   PLLTFRAIN
+Sbjct  481  IKMVYSFILRPGTSPLLTFRAIN  503
+
+
+> gi|3041670|sp|P51663.2|C11B1_SHEEP RecName: Full=Cytochrome P450 
+11B1, mitochondrial; AltName: Full=CYPXIB1; AltName: Full=Cytochrome 
+P450C11; AltName: Full=Steroid 11-beta-hydroxylase; 
+Flags: Precursor [Ovis aries]
+Length=503
+
+ Score = 775 bits (2002),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 374/503 (74%), Positives = 426/503 (85%), Gaps = 0/503 (0%)
+
+Query  3    MALRAKAEVCMAVPWLSLQRAQALGTRAARVPRTVLPFEAMPRRPGNRWLRLLQIWREQG  62
+            MAL AKA V MA PWLSL RA+ LGTRA+  P+ VLPFEAMPR PGN+W+R+LQIW+EQG
+Sbjct  1    MALWAKARVWMAGPWLSLHRARPLGTRASAAPKAVLPFEAMPRCPGNKWMRVLQIWKEQG  60
+
+Query  63   YEDLHLEVHQTFQELGPIFRYDLGGAGMVCVMLPEDVEKLQQVDSLHPHRMSLEPWVAYR  122
+             E++HL++HQTFQELGPIFRYD+GG  MV VMLPEDVE+LQQ +SLHP RM LEPW+AYR
+Sbjct  61   SENMHLDMHQTFQELGPIFRYDVGGRHMVFVMLPEDVERLQQAESLHPQRMLLEPWLAYR  120
+
+Query  123  QHRGHKCGVFLLNGPEWRFNRLRLNPEVLSPNAVQRFLPMVDAVARDFSQALKKKVLQNA  182
+            Q RGHKCGVFLLNGP+WR +RLRLNP+VLS  A+Q++ P+VD VARDFSQ LK +VLQNA
+Sbjct  121  QARGHKCGVFLLNGPQWRLDRLRLNPDVLSLPALQKYTPLVDGVARDFSQTLKARVLQNA  180
+
+Query  183  RGSLTLDVQPSIFHYTIEASNLALFGERLGLVGHSPSSASLNFLHALEVMFKSTVQLMFM  242
+            RGSLTLD+ PS+F YTIEAS L L+GERLGL+   P+  SLNF+HALE MFKSTVQLMF+
+Sbjct  181  RGSLTLDIAPSVFRYTIEASTLVLYGERLGLLTQQPNPDSLNFIHALEAMFKSTVQLMFV  240
+
+Query  243  PRSLSRWTSPKVWKEHFEAWDCIFQYGDNCIQKIYQELAFSRPQQYTSIVAELLLNAELS  302
+            PR LSRWTS  +W+EHFEAWD IFQY +  IQ+IYQELA   P  Y+ IVAELL+ A+++
+Sbjct  241  PRRLSRWTSSSMWREHFEAWDYIFQYANRAIQRIYQELALGHPWHYSGIVAELLMRADMT  300
+
+Query  303  PDAIKANSMELTAGSVDTTVFPLLMTLFELARNPNVQQALRQESLAAAASISEHPQKATT  362
+             D IKAN+++LTAGSVDTT FPLLMTLFELARNP VQQALRQESL A A ISE+PQ+ATT
+Sbjct  301  LDTIKANTIDLTAGSVDTTAFPLLMTLFELARNPEVQQALRQESLVAEARISENPQRATT  360
+
+Query  363  ELPLLRAALKETLRLYPVGLFLERVASSDLVLQNYHIPAGTLVRVFLYSLGRNPALFPRP  422
+            ELPLLRAALKETLRLYPVG+ LER  SSDLVLQNYHIPAGTLV+V LYSLGRNPA+F RP
+Sbjct  361  ELPLLRAALKETLRLYPVGITLERQVSSDLVLQNYHIPAGTLVKVLLYSLGRNPAVFARP  420
+
+Query  423  ERYNPQRWLDIRGSGRNFYHVPFGFGMRQCLGRRLAEAEMLLLLHHVLKHLQVETLTQED  482
+            E Y+PQRWLD +GSG  F H+ FGFGMRQCLGRR+AE EMLLLLHHVLK+  VETL QED
+Sbjct  421  ESYHPQRWLDRQGSGSRFPHLAFGFGMRQCLGRRVAEVEMLLLLHHVLKNFLVETLAQED  480
+
+Query  483  IKMVYSFILRPSMFPLLTFRAIN  505
+            IKMVY FIL PS  PL TFRAI 
+Sbjct  481  IKMVYRFILMPSTLPLFTFRAIQ  503
+
+
+> gi|2493375|sp|Q29552.1|C11B1_PIG RecName: Full=Cytochrome P450 
+11B1, mitochondrial; AltName: Full=CYPXIB1; AltName: Full=Cytochrome 
+P450C11; AltName: Full=Steroid 11-beta-hydroxylase; 
+Flags: Precursor
+Length=503
+
+ Score = 769 bits (1987),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 368/503 (73%), Positives = 427/503 (85%), Gaps = 0/503 (0%)
+
+Query  3    MALRAKAEVCMAVPWLSLQRAQALGTRAARVPRTVLPFEAMPRRPGNRWLRLLQIWREQG  62
+            MA+ AKAE  +A PWL+L RA+ LGTRA   P+ VLPFEA+P+ PG +W+R+LQ+WREQG
+Sbjct  1    MAIWAKAEAWLAGPWLALNRARTLGTRAVLAPKGVLPFEAIPQFPGKKWMRVLQLWREQG  60
+
+Query  63   YEDLHLEVHQTFQELGPIFRYDLGGAGMVCVMLPEDVEKLQQVDSLHPHRMSLEPWVAYR  122
+            +E+ HLE+HQTFQELGPIFR+D+GG  MV VMLPEDVE+ Q+V+ LHP R    PW+AYR
+Sbjct  61   FENNHLEMHQTFQELGPIFRFDVGGRNMVLVMLPEDVERCQKVEGLHPQRDVPGPWLAYR  120
+
+Query  123  QHRGHKCGVFLLNGPEWRFNRLRLNPEVLSPNAVQRFLPMVDAVARDFSQALKKKVLQNA  182
+              RGHKCGVFLLNGP WR +RL+LNP VLS  A+Q+F P+VD VARDFSQAL+ +V+QNA
+Sbjct  121  HLRGHKCGVFLLNGPTWRLDRLQLNPGVLSLQAMQKFTPLVDGVARDFSQALRARVMQNA  180
+
+Query  183  RGSLTLDVQPSIFHYTIEASNLALFGERLGLVGHSPSSASLNFLHALEVMFKSTVQLMFM  242
+            RGSLTLD++PSIF YTIEASNL LFGERLGL+ H P+  SL+F+HALEVMFKSTVQLMFM
+Sbjct  181  RGSLTLDIKPSIFRYTIEASNLVLFGERLGLLAHQPNPESLDFIHALEVMFKSTVQLMFM  240
+
+Query  243  PRSLSRWTSPKVWKEHFEAWDCIFQYGDNCIQKIYQELAFSRPQQYTSIVAELLLNAELS  302
+            PRSLSRWTS   WKEHFEAWDCIFQY +  IQ++YQEL    P  Y+ +VAELL +A ++
+Sbjct  241  PRSLSRWTSTGTWKEHFEAWDCIFQYANKAIQRLYQELTLGHPWHYSGVVAELLTHANMT  300
+
+Query  303  PDAIKANSMELTAGSVDTTVFPLLMTLFELARNPNVQQALRQESLAAAASISEHPQKATT  362
+             DAIKANS++LTAGSVDTT +PLLMTLFELARNP VQQALRQESLAAAA ISE+PQKA T
+Sbjct  301  VDAIKANSIDLTAGSVDTTAYPLLMTLFELARNPEVQQALRQESLAAAARISENPQKAIT  360
+
+Query  363  ELPLLRAALKETLRLYPVGLFLERVASSDLVLQNYHIPAGTLVRVFLYSLGRNPALFPRP  422
+            ELPLLRAALKETLRLYPVG+FL+R  +SDLVLQNYHIPAGTLV+V LYSLGRNPA+F RP
+Sbjct  361  ELPLLRAALKETLRLYPVGIFLDRCVTSDLVLQNYHIPAGTLVKVLLYSLGRNPAVFARP  420
+
+Query  423  ERYNPQRWLDIRGSGRNFYHVPFGFGMRQCLGRRLAEAEMLLLLHHVLKHLQVETLTQED  482
+            ERY+PQRWLD +GSG  F H+ FGFGMRQCLGRRLA+ EMLLLLHHVLK+  VETL QED
+Sbjct  421  ERYHPQRWLDNQGSGTRFPHLAFGFGMRQCLGRRLAQVEMLLLLHHVLKNFLVETLVQED  480
+
+Query  483  IKMVYSFILRPSMFPLLTFRAIN  505
+            IKM+Y FI+ PS  PLLTFRAI+
+Sbjct  481  IKMIYRFIMTPSTLPLLTFRAIS  503
+
+
+> gi|117263|sp|P15150.2|C11B1_BOVIN RecName: Full=Cytochrome P450 
+11B1, mitochondrial; AltName: Full=CYPXIB1; AltName: Full=Cytochrome 
+P450C11; AltName: Full=Steroid 11-beta-hydroxylase; 
+Flags: Precursor
+Length=503
+
+ Score = 762 bits (1968),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 367/503 (73%), Positives = 419/503 (83%), Gaps = 0/503 (0%)
+
+Query  3    MALRAKAEVCMAVPWLSLQRAQALGTRAARVPRTVLPFEAMPRRPGNRWLRLLQIWREQG  62
+            MAL AKA V MA PWLSL  A+ LGTR A  P+ VLPFEAMPR PGN+W+R+LQIW+EQ 
+Sbjct  1    MALWAKARVRMAGPWLSLHEARLLGTRGAAAPKAVLPFEAMPRCPGNKWMRMLQIWKEQS  60
+
+Query  63   YEDLHLEVHQTFQELGPIFRYDLGGAGMVCVMLPEDVEKLQQVDSLHPHRMSLEPWVAYR  122
+             E++HL++HQTFQELGPIFRYD+GG  MV VMLPEDVE+LQQ DS HP RM LEPW+AYR
+Sbjct  61   SENMHLDMHQTFQELGPIFRYDVGGRHMVFVMLPEDVERLQQADSHHPQRMILEPWLAYR  120
+
+Query  123  QHRGHKCGVFLLNGPEWRFNRLRLNPEVLSPNAVQRFLPMVDAVARDFSQALKKKVLQNA  182
+            Q RGHKCGVFLLNGP+WR +RLRLNP+VLS  A+Q++ P+VD VARDFSQ LK +VLQNA
+Sbjct  121  QARGHKCGVFLLNGPQWRLDRLRLNPDVLSLPALQKYTPLVDGVARDFSQTLKARVLQNA  180
+
+Query  183  RGSLTLDVQPSIFHYTIEASNLALFGERLGLVGHSPSSASLNFLHALEVMFKSTVQLMFM  242
+            RGSLTLD+ PS+F YTIEAS L L+GERLGL+   P+  SLNF+HALE M KSTVQLMF+
+Sbjct  181  RGSLTLDIAPSVFRYTIEASTLVLYGERLGLLTQQPNPDSLNFIHALEAMLKSTVQLMFV  240
+
+Query  243  PRSLSRWTSPKVWKEHFEAWDCIFQYGDNCIQKIYQELAFSRPQQYTSIVAELLLNAELS  302
+            PR LSRW S  +W+EHFEAWD IFQY +  IQ+IYQELA   P  Y+ IVAELL+ A+++
+Sbjct  241  PRRLSRWMSTNMWREHFEAWDYIFQYANRAIQRIYQELALGHPWHYSGIVAELLMRADMT  300
+
+Query  303  PDAIKANSMELTAGSVDTTVFPLLMTLFELARNPNVQQALRQESLAAAASISEHPQKATT  362
+             D IKAN+++LTAGSVDTT FPLLMTLFELARNP VQQA+RQESL A A ISE+PQ+A T
+Sbjct  301  LDTIKANTIDLTAGSVDTTAFPLLMTLFELARNPEVQQAVRQESLVAEARISENPQRAIT  360
+
+Query  363  ELPLLRAALKETLRLYPVGLFLERVASSDLVLQNYHIPAGTLVRVFLYSLGRNPALFPRP  422
+            ELPLLRAALKETLRLYPVG+ LER  SSDLVLQNYHIPAGTLV+V LYSLGRNPA+F RP
+Sbjct  361  ELPLLRAALKETLRLYPVGITLEREVSSDLVLQNYHIPAGTLVKVLLYSLGRNPAVFARP  420
+
+Query  423  ERYNPQRWLDIRGSGRNFYHVPFGFGMRQCLGRRLAEAEMLLLLHHVLKHLQVETLTQED  482
+            E Y+PQRWLD +GSG  F H+ FGFG+RQCLGRR+AE EMLLLLHHVLK+  VETL QED
+Sbjct  421  ESYHPQRWLDRQGSGSRFPHLAFGFGVRQCLGRRVAEVEMLLLLHHVLKNFLVETLEQED  480
+
+Query  483  IKMVYSFILRPSMFPLLTFRAIN  505
+            IKMVY FIL PS  PL TFRAI 
+Sbjct  481  IKMVYRFILMPSTLPLFTFRAIQ  503
+
+
+> gi|3023558|sp|Q64658.1|C11B2_MESAU RecName: Full=Cytochrome P450 
+11B2, mitochondrial; AltName: Full=Aldosterone synthase; 
+Short=ALDOS; AltName: Full=Aldosterone-synthesizing enzyme; 
+AltName: Full=CYPXIB2; AltName: Full=Cytochrome P-450Aldo; 
+AltName: Full=Cytochrome P-450C18; AltName: Full=Steroid 18-hydroxylase; 
+Flags: Precursor [Mesocricetus auratus]
+Length=500
+
+ Score = 710 bits (1832),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 343/503 (68%), Positives = 412/503 (82%), Gaps = 3/503 (1%)
+
+Query  3    MALRAKAEVCMAVPWLSLQRAQALGTRAARVPRTVLPFEAMPRRPGNRWLRLLQIWREQG  62
+            MALRAKA+V +A PW  L R +ALGT AA  P T+ PFEA+P+   NRWL++LQI RE+G
+Sbjct  1    MALRAKADVWLARPWQCLPRTRALGTTAALAPNTLRPFEAIPQYSRNRWLKMLQILREEG  60
+
+Query  63   YEDLHLEVHQTFQELGPIFRYDLGGAGMVCVMLPEDVEKLQQVDSLHPHRMSLEPWVAYR  122
+             E LHLE+H+ F+ELGPIFRY +G   +V VMLPED EKL QV+S+HP RM LEPWVA+R
+Sbjct  61   QEGLHLEMHEAFRELGPIFRYSMGRTQVVSVMLPEDAEKLHQVESMHPRRMHLEPWVAHR  120
+
+Query  123  QHRGHKCGVFLLNGPEWRFNRLRLNPEVLSPNAVQRFLPMVDAVARDFSQALKKKVLQNA  182
+            +HRG   GVFLLNGPEWRFNRLRLNP VLSP AVQ+F+PMVD VARDF ++LKKKV QNA
+Sbjct  121  EHRGLSRGVFLLNGPEWRFNRLRLNPHVLSPKAVQKFVPMVDMVARDFLESLKKKVFQNA  180
+
+Query  183  RGSLTLDVQPSIFHYTIEASNLALFGERLGLVGHSPSSASLNFLHALEVMFKSTVQLMFM  242
+            RGSLT+DVQ S+F+Y+IEASN  LFGERLGL+GH  S ASL F+HAL  +FK+T QLMF+
+Sbjct  181  RGSLTMDVQQSLFNYSIEASNFVLFGERLGLLGHDLSPASLTFIHALHSVFKTTPQLMFL  240
+
+Query  243  PRSLSRWTSPKVWKEHFEAWDCIFQYGDNCIQKIYQELAFSRPQQYTSIVAELLLNAELS  302
+            PRSL+RWTS +VWKEHFEAWD I +Y + CI+K++QEL    P  Y+ IVAEL+    L 
+Sbjct  241  PRSLTRWTSTRVWKEHFEAWDVISEYVNRCIRKVHQELRLGSPHTYSGIVAELMSQGALP  300
+
+Query  303  PDAIKANSMELTAGSVDTTVFPLLMTLFELARNPNVQQALRQESLAAAASISEHPQKATT  362
+             DAI+ANS+ELTAGSVDTT FPL+M LFELARNP+VQQA+RQESLAA AS++ +PQ+A +
+Sbjct  301  LDAIRANSIELTAGSVDTTTFPLVMALFELARNPDVQQAVRQESLAAEASVAANPQRAMS  360
+
+Query  363  ELPLLRAALKETLRLYPVGLFLERVASSDLVLQNYHIPAGTLVRVFLYSLGRNPALFPRP  422
+            +LPLLRA LKETLRLYPVG FLER+ SSDLVLQNYH+PAGTLV ++LYS+GRNPA+FPRP
+Sbjct  361  DLPLLRAVLKETLRLYPVGGFLERILSSDLVLQNYHVPAGTLVLLYLYSMGRNPAVFPRP  420
+
+Query  423  ERYNPQRWLDIRGSGRNFYHVPFGFGMRQCLGRRLAEAEMLLLLHHVLKHLQVETLTQED  482
+            E Y PQRWL+  GS   F H+ FGFG+RQCLG+RLA+ EMLLLLHHVLK  +VET  +ED
+Sbjct  421  EHYLPQRWLERNGS---FQHLTFGFGVRQCLGKRLAQVEMLLLLHHVLKSFRVETQERED  477
+
+Query  483  IKMVYSFILRPSMFPLLTFRAIN  505
+            ++MVY F+L PS  PLLTFR ++
+Sbjct  478  VRMVYRFVLAPSSSPLLTFRPVS  500
+
+
+> gi|231899|sp|P30100.1|C11B3_RAT RecName: Full=Cytochrome P450 
+11B3, mitochondrial; AltName: Full=Aldosterone synthase; AltName: 
+Full=CYPXIB3; AltName: Full=Cytochrome P450-Aldo-2; AltName: 
+Full=Steroid 11-beta-hydroxylase; Flags: Precursor
+Length=500
+
+ Score = 689 bits (1778),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 344/503 (68%), Positives = 410/503 (82%), Gaps = 3/503 (1%)
+
+Query  3    MALRAKAEVCMAVPWLSLQRAQALGTRAARVPRTVLPFEAMPRRPGNRWLRLLQIWREQG  62
+            MALR  A+V +A PW  L R +ALGT A   P+T+ PFEA+P+   N+WL+++QI REQG
+Sbjct  1    MALRVTADVWLARPWQCLHRTRALGTTATLAPKTLKPFEAIPQYSRNKWLKMIQILREQG  60
+
+Query  63   YEDLHLEVHQTFQELGPIFRYDLGGAGMVCVMLPEDVEKLQQVDSLHPHRMSLEPWVAYR  122
+             E+LHLE+HQ FQELGPIFR+  GGA +V VMLPED EKL QV+S+ P RM LEPWVA+R
+Sbjct  61   QENLHLEMHQAFQELGPIFRHSAGGAQIVSVMLPEDAEKLHQVESILPRRMHLEPWVAHR  120
+
+Query  123  QHRGHKCGVFLLNGPEWRFNRLRLNPEVLSPNAVQRFLPMVDAVARDFSQALKKKVLQNA  182
+            + RG + GVFLLNG EWRFNRL+LNP VLSP AVQ F+PMVD VARDF +ALKKKV QNA
+Sbjct  121  ELRGLRRGVFLLNGAEWRFNRLKLNPNVLSPKAVQNFVPMVDEVARDFLEALKKKVRQNA  180
+
+Query  183  RGSLTLDVQPSIFHYTIEASNLALFGERLGLVGHSPSSASLNFLHALEVMFKSTVQLMFM  242
+            RGSLT+DVQ S+F+YTIEASN ALFGERLGL+GH  +  SL F+HAL  MFKST QL+F+
+Sbjct  181  RGSLTMDVQQSLFNYTIEASNFALFGERLGLLGHDLNPGSLKFIHALHSMFKSTTQLLFL  240
+
+Query  243  PRSLSRWTSPKVWKEHFEAWDCIFQYGDNCIQKIYQELAFSRPQQYTSIVAELLLNAELS  302
+            PRSL+RWTS +VWKEHF+AWD I +Y + CI K++QEL     Q Y+ IVA L+    L 
+Sbjct  241  PRSLTRWTSTQVWKEHFDAWDVISEYANRCIWKVHQELRLGSSQTYSGIVAALITQGALP  300
+
+Query  303  PDAIKANSMELTAGSVDTTVFPLLMTLFELARNPNVQQALRQESLAAAASISEHPQKATT  362
+             DAIKANSM+LTAGSVDTT  PL+MTLFELARNP+VQQALRQE+LAA ASI+ +PQKA +
+Sbjct  301  LDAIKANSMKLTAGSVDTTAIPLVMTLFELARNPDVQQALRQETLAAEASIAANPQKAMS  360
+
+Query  363  ELPLLRAALKETLRLYPVGLFLERVASSDLVLQNYHIPAGTLVRVFLYSLGRNPALFPRP  422
+            +LPLLRAALKETLRLYPVG FLER+ +SDLVLQNYH+PAGTLV ++LYS+GRNPA+FPRP
+Sbjct  361  DLPLLRAALKETLRLYPVGGFLERILNSDLVLQNYHVPAGTLVLLYLYSMGRNPAVFPRP  420
+
+Query  423  ERYNPQRWLDIRGSGRNFYHVPFGFGMRQCLGRRLAEAEMLLLLHHVLKHLQVETLTQED  482
+            ERY PQRWL+ +   R+F H+ FGFG+RQCLGRRLAE EMLLLLHH+LK  QVETL QED
+Sbjct  421  ERYMPQRWLERK---RSFQHLAFGFGVRQCLGRRLAEVEMLLLLHHMLKTFQVETLRQED  477
+
+Query  483  IKMVYSFILRPSMFPLLTFRAIN  505
+            ++M Y F+L PS  P+LTFR I+
+Sbjct  478  VQMAYRFVLMPSSSPVLTFRPIS  500
+
+
+> gi|341940566|sp|P15539.3|C11B2_MOUSE RecName: Full=Cytochrome 
+P450 11B2, mitochondrial; AltName: Full=Aldosterone synthase; 
+AltName: Full=CYPXIB2; AltName: Full=Cytochrome P450C11; 
+AltName: Full=Steroid 11-beta-hydroxylase; Flags: Precursor
+Length=500
+
+ Score = 688 bits (1775),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 341/503 (68%), Positives = 410/503 (82%), Gaps = 3/503 (1%)
+
+Query  3    MALRAKAEVCMAVPWLSLQRAQALGTRAARVPRTVLPFEAMPRRPGNRWLRLLQIWREQG  62
+            MALR  A+V +A PW  L R +ALGT A   P+T+ PFEA+P+   N+WL+++QI REQG
+Sbjct  1    MALRVTADVWLARPWQCLHRTRALGTTATLAPKTLQPFEAIPQYSRNKWLKMIQILREQG  60
+
+Query  63   YEDLHLEVHQTFQELGPIFRYDLGGAGMVCVMLPEDVEKLQQVDSLHPHRMSLEPWVAYR  122
+             E+LHLE+HQ F+ELGPIFR+ +G   +V VMLPED EKL QV+S+ P RM LEPWVA+R
+Sbjct  61   QENLHLEMHQVFRELGPIFRHSVGKTQIVSVMLPEDAEKLHQVESMLPRRMHLEPWVAHR  120
+
+Query  123  QHRGHKCGVFLLNGPEWRFNRLRLNPEVLSPNAVQRFLPMVDAVARDFSQALKKKVLQNA  182
+            + RG + GVFLLNGPEWR NRLRLN  VLSP AVQ+F+PMVD VARDF + LK+KVLQNA
+Sbjct  121  ELRGLRRGVFLLNGPEWRLNRLRLNRNVLSPKAVQKFVPMVDMVARDFLETLKEKVLQNA  180
+
+Query  183  RGSLTLDVQPSIFHYTIEASNLALFGERLGLVGHSPSSASLNFLHALEVMFKSTVQLMFM  242
+            RGSLT+DVQ S+F+YTIEASN ALFGERLGL+GH  S  SL F+HAL  MFKST QL+F+
+Sbjct  181  RGSLTMDVQQSLFNYTIEASNFALFGERLGLLGHDLSPGSLKFIHALHSMFKSTSQLLFL  240
+
+Query  243  PRSLSRWTSPKVWKEHFEAWDCIFQYGDNCIQKIYQELAFSRPQQYTSIVAELLLNAELS  302
+            P+SL+RWTS +VWKEHF+AWD I +Y + CI K++QEL     Q Y+ IVAEL+    L 
+Sbjct  241  PKSLTRWTSTRVWKEHFDAWDVISEYANRCIWKVHQELRLGSSQTYSGIVAELISQGSLP  300
+
+Query  303  PDAIKANSMELTAGSVDTTVFPLLMTLFELARNPNVQQALRQESLAAAASISEHPQKATT  362
+             DAIKANSMELTAGSVDTT  PL+MTLFELARNP+VQ+ALRQESLAA ASI+ +PQKA +
+Sbjct  301  LDAIKANSMELTAGSVDTTAIPLVMTLFELARNPDVQKALRQESLAAEASIAANPQKAMS  360
+
+Query  363  ELPLLRAALKETLRLYPVGLFLERVASSDLVLQNYHIPAGTLVRVFLYSLGRNPALFPRP  422
+            +LPLLRAALKETLRLYPVG FLER+ SSDLVLQNYH+PAGTLV ++LYS+GRNPA+FPRP
+Sbjct  361  DLPLLRAALKETLRLYPVGGFLERILSSDLVLQNYHVPAGTLVLLYLYSMGRNPAVFPRP  420
+
+Query  423  ERYNPQRWLDIRGSGRNFYHVPFGFGMRQCLGRRLAEAEMLLLLHHVLKHLQVETLTQED  482
+            ERY PQRWL+ +   R+F H+ FGFG+RQCLGRRLAE EM+LLLHH+LK  QVETL QED
+Sbjct  421  ERYMPQRWLERK---RSFQHLAFGFGVRQCLGRRLAEVEMMLLLHHILKTFQVETLRQED  477
+
+Query  483  IKMVYSFILRPSMFPLLTFRAIN  505
+            ++M Y F+L PS  P+LTFR ++
+Sbjct  478  VQMAYRFVLMPSSSPVLTFRPVS  500
+
+
+> gi|231898|sp|P30099.1|C11B2_RAT RecName: Full=Cytochrome P450 
+11B2, mitochondrial; AltName: Full=Aldosterone synthase; AltName: 
+Full=CYPXIB2; AltName: Full=Cytochrome P450-Aldo-1; AltName: 
+Full=Steroid 11-beta-hydroxylase; Flags: Precursor
+Length=510
+
+ Score = 684 bits (1766),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 343/505 (68%), Positives = 409/505 (81%), Gaps = 3/505 (1%)
+
+Query  1    IGMALRAKAEVCMAVPWLSLQRAQALGTRAARVPRTVLPFEAMPRRPGNRWLRLLQIWRE  60
+            I +  R  A+V +A PW  L R +ALGT A   P+T+ PFEA+P+   N+WL+++QI RE
+Sbjct  9    IELHSRVTADVWLARPWQCLHRTRALGTTATLAPKTLKPFEAIPQYSRNKWLKMIQILRE  68
+
+Query  61   QGYEDLHLEVHQTFQELGPIFRYDLGGAGMVCVMLPEDVEKLQQVDSLHPHRMSLEPWVA  120
+            QG E+LHLE+HQ FQELGPIFR+  GGA +V VMLPED EKL QV+S+ P RM LEPWVA
+Sbjct  69   QGQENLHLEMHQAFQELGPIFRHSAGGAQIVSVMLPEDAEKLHQVESILPRRMHLEPWVA  128
+
+Query  121  YRQHRGHKCGVFLLNGPEWRFNRLRLNPEVLSPNAVQRFLPMVDAVARDFSQALKKKVLQ  180
+            +R+ RG + GVFLLNG EWRFNRL+LNP VLSP AVQ F+PMVD VARDF +ALKKKV Q
+Sbjct  129  HRELRGLRRGVFLLNGAEWRFNRLKLNPNVLSPKAVQNFVPMVDEVARDFLEALKKKVRQ  188
+
+Query  181  NARGSLTLDVQPSIFHYTIEASNLALFGERLGLVGHSPSSASLNFLHALEVMFKSTVQLM  240
+            NARGSLT+DVQ S+F+YTIEASN ALFGERLGL+GH  +  SL F+HAL  MFKST QL+
+Sbjct  189  NARGSLTMDVQQSLFNYTIEASNFALFGERLGLLGHDLNPGSLKFIHALHSMFKSTTQLL  248
+
+Query  241  FMPRSLSRWTSPKVWKEHFEAWDCIFQYGDNCIQKIYQELAFSRPQQYTSIVAELLLNAE  300
+            F+PRSL+RWTS +VWKEHF+AWD I +Y + CI K++QEL     Q Y+ IVA L+    
+Sbjct  249  FLPRSLTRWTSTQVWKEHFDAWDVISEYANRCIWKVHQELRLGSSQTYSGIVAALITQGA  308
+
+Query  301  LSPDAIKANSMELTAGSVDTTVFPLLMTLFELARNPNVQQALRQESLAAAASISEHPQKA  360
+            L  DAIKANSMELTAGSVDTT  PL+MTLFELARNP+VQQALRQE+LAA ASI+ +PQKA
+Sbjct  309  LPLDAIKANSMELTAGSVDTTAIPLVMTLFELARNPDVQQALRQETLAAEASIAANPQKA  368
+
+Query  361  TTELPLLRAALKETLRLYPVGLFLERVASSDLVLQNYHIPAGTLVRVFLYSLGRNPALFP  420
+             ++LPLLRAALKETLRLYPVG FLER+ +SDLVLQNYH+PAGTLV ++LYS+GRNPA+FP
+Sbjct  369  MSDLPLLRAALKETLRLYPVGGFLERILNSDLVLQNYHVPAGTLVLLYLYSMGRNPAVFP  428
+
+Query  421  RPERYNPQRWLDIRGSGRNFYHVPFGFGMRQCLGRRLAEAEMLLLLHHVLKHLQVETLTQ  480
+            RPERY PQRWL+ +   R+F H+ FGFG+RQCLGRRLAE EMLLLLHH+LK  QVETL Q
+Sbjct  429  RPERYMPQRWLERK---RSFQHLAFGFGVRQCLGRRLAEVEMLLLLHHMLKTFQVETLRQ  485
+
+Query  481  EDIKMVYSFILRPSMFPLLTFRAIN  505
+            ED++M Y F+L PS  P+LTFR I+
+Sbjct  486  EDVQMAYRFVLMPSSSPVLTFRPIS  510
+
+
+
+Lambda      K        H        a         alpha
+   0.334    0.144    0.487    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 120989743155
+
+
+Query= NM_000497-2F Homo sapiens cytochrome P450 family 11 subfamily B
+member 1 (CYP11B1), transcript variant 1, mRNA.
+
+Length=1183
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  gi|387912917|sp|Q01484.4|ANK2_HUMAN RecName: Full=Ankyrin-2; Sh...  34.7    7.3  
+
+
+> gi|387912917|sp|Q01484.4|ANK2_HUMAN RecName: Full=Ankyrin-2; 
+Short=ANK-2; AltName: Full=Ankyrin-B; AltName: Full=Brain ankyrin; 
+AltName: Full=Non-erythroid ankyrin
+Length=3957
+
+ Score = 34.7 bits (78),  Expect = 7.3, Method: Composition-based stats.
+ Identities = 29/90 (32%), Positives = 37/90 (41%), Gaps = 4/90 (4%)
+
+Query  496   SPSSPSEPSTNH--VSAPRVPAWPPASLSA*PQATPLLSHMHSFLSHPSV*PAPAQMELP  553
+             SP SPS  +  H  VS+ +    PP S S      P +S       HP V P   +  LP
+Sbjct  1879  SPVSPSTKTERHSPVSSTKTERHPPVSPSGKTDKRPPVSPSGRTEKHPPVSPGRTEKRLP  1938
+
+Query  554   RASRTRVCQAKQQCQGTAGEDLADLVPSPT  583
+              +   R    K Q   TAG+    L  SP+
+Sbjct  1939  VSPSGRT--DKHQPVSTAGKTEKHLPVSPS  1966
+
+
+
+Lambda      K        H        a         alpha
+   0.339    0.144    0.551    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 120989743155
+
+
+  Database: ../../swissprot
+    Posted date:  Jun 6, 2016  10:46 PM
+  Number of letters in database: 174,036,717
+  Number of sequences in database:  463,707
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
