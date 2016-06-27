@@ -26,7 +26,7 @@
 
   my $v = 1;
 
-  my $str = Bio::SeqIO->new(-file=>'/root/test.fa' , -format => 'fasta' );
+  my $str = Bio::SeqIO->new(-file=>'/home/manager/bio/input/CYP11B1_mRNA_traducido.fasta' , -format => 'fasta' );
 
   while (my $input = $str->next_seq()){
     
