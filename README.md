@@ -1,6 +1,7 @@
 Instrucciones de ejecucución:
 
 Para ejecutar BLAST de manera offline:
+
 1- Instalar localmente BLAST en /home/manager/bio/ncbi-blast-2.4.0+/bin/blastp
 
 2- Bajar la BD Swisprot en /home/manager/bio/swissprot
@@ -13,6 +14,7 @@ Para ejecutar BLAST de manera offline:
 
 
 Para ejecutar de manera online situar el archivo de input en el mismo lugar y ejecutar:
+
 perl ej2_online.pl
 
 Este último requiere conexión directa a internet (no funciona si se utilza un proxy)
